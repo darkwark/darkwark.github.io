@@ -1,0 +1,71 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="I guess everyone knows that you can copy/paste layer styles through the menu Layer → Layer Style → Copy/Paste Layer Style. But what I missed is a function that will paste effects by adding them to th">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Layer Styles' Hidden Feature?">
+<meta property="og:url" content="http://yoursite.com/layerStylesTrick/index.html">
+<meta property="og:site_name" content="Captain Awesome">
+<meta property="og:description" content="I guess everyone knows that you can copy/paste layer styles through the menu Layer → Layer Style → Copy/Paste Layer Style. But what I missed is a function that will paste effects by adding them to th">
+<meta property="og:image" content="http://yoursite.com/images/layerstylefeature/main.png">
+<meta property="og:image" content="http://yoursite.com/images/layerstylefeature/step1.png">
+<meta property="og:image" content="http://yoursite.com/images/layerstylefeature/step2.png">
+<meta property="og:image" content="http://yoursite.com/images/layerstylefeature/hotkeywarning.png">
+<meta property="og:image" content="http://yoursite.com/images/layerstylefeature/nospeciallayerpaste.png">
+<meta property="og:image" content="http://yoursite.com/images/layerstylefeature/hotkey.png">
+<meta property="og:image" content="http://yoursite.com/images/layerstylefeature/makeawesome.png">
+<meta property="og:updated_time" content="2016-03-05T10:24:03.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Layer Styles' Hidden Feature?">
+<meta name="twitter:description" content="I guess everyone knows that you can copy/paste layer styles through the menu Layer → Layer Style → Copy/Paste Layer Style. But what I missed is a function that will paste effects by adding them to th">
+<meta name="twitter:image" content="http://yoursite.com/images/layerstylefeature/main.png"><title>Layer Styles' Hidden Feature?</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic|Noto+Serif:700,700italic,400,400italic&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css"><link rel="stylesheet" href="/css/styles.css"></head><body><main class="container"><div class="follow-widget"><a href="http://twitter.com/darkwark"><div class="twitter-widget"><span class="fa fa-twitter"></span><span>Follow</span></div></a></div><section class="sidebar"><div class="author"><a href="/"><img src="/images/darkwark_220x220_circle.png" class="avatar"></a><h1>Kamil Khadeyev</h1><small>Design & Illustration</small></div><ul class="main menu"><li class="menu-item"><a href="#">Portfolio</a></li><li class="menu-item"><a href="#">Sketchbook</a></li><li class="menu-item"><a href="#">About</a></li></ul><ul class="scripts menu"><li class="menu-item">Scripts:</li><li class="menu-item"><a href="#">Downloads</a></li><li class="menu-item"><a href="#">Troubleshooting</a></li></ul><br><ul class="social menu"><li><a href="http://dribbble.com/darkwark" target="_blank" class="fa fa-lg fa-dribbble"></a></li><li><a href="http://twitter.com/darkwark" target="_blank" class="fa fa-lg fa-twitter"></a></li><li><a href="http://instagram.com/darkwark" target="_blank" class="fa fa-lg fa-instagram"></a></li><li><a href="http://pinterest.com/darkwark" target="_blank" class="fa fa-lg fa-pinterest"></a></li></ul></section><section class="posts"><article class="post"><time datetime="2013-05-08T10:22:24.000Z">May 8th, 2013</time><h1><a href="/layerStylesTrick/">Layer Styles' Hidden Feature?</a></h1><ul class="tags"><li class="tag"><a href="/tags/Tips/">Tips</a></li></ul><p><img src="/images/layerstylefeature/main.png" alt="" title="">
+I guess everyone knows that you can copy/paste layer styles through the menu <code>Layer → Layer Style → Copy/Paste Layer Style</code>. But what I missed is a function that will paste effects by adding them to the current layer instead of replacing everything. Let me show the example. </p>
+
+<a id="more"></a>
+<h2>Prologue</h2>
+
+<p><img src="/images/layerstylefeature/step1.png" alt="" title=""></p>
+
+<p>Let’s say you have a circle on your canvas with <code>Stroke</code> effect on it and you have in your clipboard style with <code>Inner Shadow</code>. If you’ll paste it via default <code>Paste Layer Style</code> it will replace everything and leave you with sad circle with <code>Inner Shadow</code>:</p>
+
+<p><img src="/images/layerstylefeature/step2.png" alt="" title=""></p>
+
+<p>Not cool. Sometimes I need to apply one global layer style effect (Drop Shadow for example) to few layers that are already have their own layer styles. I have to do add this style manually. Tedious process.</p>
+
+<h2>Dear diary</h2>
+
+<p>So, to solve this problem I decided to write a script. <br>
+When I made it, as usual I wanted to assign hotkey to it. As I <a href="http://blog.kam88.com/en/adobe-photoshop-quick-tips.html" target="_blank" rel="external">wrote before</a>, for working with Layer Styles I have these shortcuts: <br>
+1. <code>cmd+ctrl+c</code> — Copy Layer Style <br>
+2. <code>cmd+ctrl+v</code> — Paste Layer Style <br>
+3. <code>cmd+ctrl+x</code> — Clear Styles <br>
+4. <code>cmd+ctrl+t</code> — Scale Effects <br>
+And I decided to assign to the script hotkey <code>cmd+ctrl+alt+v</code>.  </p>
+
+<p>Imagine my face, when Photoshop showed me this warning:  </p>
+
+<p><img src="/images/layerstylefeature/hotkeywarning.png" alt="" title=""></p>
+
+<p>Photoshop already has this function! And it has same hotkey that I wanted to assign to my script!</p>
+
+<h2>Mysterious part</h2>
+
+<p><img src="/images/layerstylefeature/nospeciallayerpaste.png" alt="" title=""></p>
+
+<p>But the most interesting thing is that there’s no such menu item in Photoshop at all. Like they made function, but didn’t added it to the GUI. I guess that’s why warning says, that we can’t assign different hotkey to the “Paste layer effects without replacing the current effects”—we just can’t access this functon in the <code>Keyboard Shortcuts…</code> dialog.</p>
+
+<h2>The essence of the post in one picture</h2>
+
+<p>So, this time instead of script I have a hotkey for you:</p>
+
+<p><img src="/images/layerstylefeature/hotkey.png" alt="Paste layer effects without replacing the current effects" title=""></p>
+
+<p><strike><p style="color:lightgray">Unfortunately, I don’t know analog combination for the Windows. We tried with my brother to press instead of cmd: grey alt, shift — nothing happened. If someone will find such hotkey for Windows — please reach me out on Twitter or in comments, I’ll update the post.  </p></strike></p>
+<p><strong>UPDATE:</strong> It’s not about <code>cmd+alt+ctrl+v</code>. It’s about setting up any hotkey for the <code>Paste Layer Style</code> and then adding <code>alt</code> when using it. For example, if you have <code>cmd+ctrl+R</code> for <code>Paste Layer Style</code> you will have to hit <code>cmd+ctrl+alt+R</code> for <code>Paste layer effects without replacing</code>. So this should work both on Mac or PC</p>
+
+<h2>Yep</h2>
+
+<p>I wonder what other hidden functions Photoshop actually have.   </p>
+
+<p>Imagine what if …</p>
+
+<p><img src="/images/layerstylefeature/makeawesome.png" alt="" title=""></p>
+
+<p>B-…but… of course no… No. There’s no such function guys. And don’t try to find it. Okay?</p><!--.addthis_sharing_toolbox--></article></section></main><!--footer--><!--  include _footer.jade--></body></html>
