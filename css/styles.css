@@ -107,9 +107,14 @@ center {
 
 .posts {
   float: left;
-  max-width: 600px; }
+  max-width: 600px;
+  margin: 0 auto; }
+  .posts .wrapper {
+    width: 600px; }
   @media (max-width: 960px) {
     .posts {
+      max-width: 600px;
+      min-width: 200px;
       margin: 0 auto;
       clear: both;
       float: none; } }
@@ -231,8 +236,8 @@ blockquote {
     color: #5573A2; }
   @media (max-width: 420px) {
     blockquote {
-      font-size: .9rem;
-      padding: 0.1rem 1.5rem;
+      font-size: 1rem;
+      padding: 1rem 1.5rem;
       padding-bottom: .05rem; } }
 
 a.button {
@@ -251,6 +256,138 @@ a.button {
   .button:hover {
     background: #7fad4a;
     color: white; }
+
+.share {
+  margin-top: 2rem;
+  box-sizing: border-box;
+  border: 1px solid #e3eff2;
+  border-radius: 5px;
+  color: #556b71;
+  height: 90px;
+  width: 100%;
+  text-align: center; }
+  @media (max-width: 420px) {
+    .share {
+      height: 60px; } }
+  .share a {
+    border: none;
+    color: inherit; }
+    .share a:hover {
+      border: none; }
+  .share .fa {
+    margin-right: .5rem; }
+  .share .twitter {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: inherit;
+    border-right: 1px solid #e3eff2; }
+    .share .twitter .fa-twitter {
+      color: #4bd5ee;
+      font-size: 36px;
+      margin-top: 26px; }
+      @media (max-width: 420px) {
+        .share .twitter .fa-twitter {
+          font-size: 28px;
+          margin-top: 17px; } }
+    .share .twitter:hover {
+      background: #e3eff2;
+      border-right: inherit; }
+  .share .facebook {
+    float: left;
+    width: 50%;
+    height: inherit; }
+    .share .facebook .fa-facebook {
+      color: #5674a0;
+      font-size: 28px;
+      margin-top: 31px; }
+      @media (max-width: 420px) {
+        .share .facebook .fa-facebook {
+          font-size: 23px;
+          margin-top: 18px; } }
+    .share .facebook:hover {
+      background: #e3eff2; }
+
+.comments {
+  margin-bottom: 10rem; }
+  .comments h2 {
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center; }
+
+.notice, .notice-blue, .notice-yellow, .notice-green {
+  margin: 1rem 0;
+  background: #f5f8f7;
+  padding: 1rem 2.8rem;
+  padding-bottom: 2rem;
+  border-radius: 5px;
+  color: #646c78;
+  position: relative;
+  max-width: 100%; }
+  @media (max-width: 420px) {
+    .notice, .notice-blue, .notice-yellow, .notice-green {
+      padding: .8rem 1.4rem;
+      padding-bottom: 1.5rem; } }
+  .notice h3, .notice-blue h3, .notice-yellow h3, .notice-green h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    color: #5573a2; }
+  .notice p, .notice-blue p, .notice-yellow p, .notice-green p {
+    margin: 0;
+    max-width: 400px; }
+  .notice i, .notice-blue i, .notice-yellow i, .notice-green i {
+    color: #dae6e9;
+    position: absolute;
+    right: 3rem;
+    top: calc(50% - 36px);
+    font-size: 72px; }
+    @media (max-width: 620px) {
+      .notice i, .notice-blue i, .notice-yellow i, .notice-green i {
+        display: none; } }
+
+.notice-yellow {
+  background: #f9f5ee;
+  color: #786d64; }
+  .notice-yellow h3 {
+    color: #a27255; }
+  .notice-yellow a {
+    color: #d17575;
+    border-color: #f1dbd6; }
+    .notice-yellow a:hover {
+      color: #ffba4c; }
+  .notice-yellow i {
+    color: #ebdccd; }
+
+.notice-green {
+  background: #f4f9ee;
+  color: #6e7864; }
+  .notice-green h3 {
+    color: #84a255; }
+  .notice-green a {
+    color: #91c343;
+    border-color: #e0eecc; }
+    .notice-green a:hover {
+      color: #ffba4c; }
+  .notice-green i {
+    color: #d6e4c5; }
+
+.download_widget {
+  text-align: center;
+  margin: 1.5rem 0; }
+  .download_widget .button {
+    margin-bottom: .8rem; }
+
+.hr-bold {
+  background: #f5f8f7;
+  height: 5px;
+  border-radius: 5px; }
+
+#disqus_thread {
+  margin-top: 2rem; }
 
 .follow-widget {
   position: fixed;
@@ -301,7 +438,7 @@ a.button {
 
 .avatar {
   margin-top: 0rem;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   width: 110px;
   height: 110px;
   border-radius: 60px;
