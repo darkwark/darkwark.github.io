@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Captain Awesome</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.darkwark.com/"/>
+  <updated>2016-03-06T18:31:02.000Z</updated>
+  <id>http://blog.darkwark.com/</id>
+  
+  <author>
+    <name>Kamil Khadeyev</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Transform Each 2.1 Update</title>
+    <link href="http://blog.darkwark.com/transformEach21/"/>
+    <id>http://blog.darkwark.com/transformEach21/</id>
+    <published>2015-08-03T20:54:45.000Z</published>
+    <updated>2016-03-06T18:31:02.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Since Adobe have changed how some stuff work in Photoshop scripting, Transform Each script required an update. I rewrote its UI from the scratch and while I was there, I also added Preview button. And yes, it finally &lt;strong&gt;works in CC2014/2015&lt;/strong&gt;. Yay!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/transformeach21_preview-ps.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;div class=&quot;download_widget&quot;&gt;&lt;a href=&quot;http://blog.kam88.com/getTransformEach21&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;&lt;small&gt;Requires Adobe Photoshop CS5, CS6, CC2014 or CC2015&lt;/small&gt;&lt;/div&gt;
+&lt;p&gt;You can place the script into &lt;code&gt;Photoshop/Presets/Scripts&lt;/code&gt; folder and access it from &lt;code&gt;File → Scripts&lt;/code&gt; menu.&lt;br&gt;You can also setup a custom hotkey in &lt;code&gt;Edit → Keyboard shortctus…&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;UI and functions remained pretty much the same, so you can review description of each slider in &lt;a href=&quot;http://blog.kam88.com/en/transform-each-20.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;the previous post&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/TransformEach21.png&quot; alt=&quot;&quot; class=&quot;roundcorners&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I’ve added Preview button, which give you ability to preview transformation result before applying it. May be pretty useful.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&quot;Take-a-notice&quot;&gt;&lt;a href=&quot;#Take-a-notice&quot; class=&quot;headerlink&quot; title=&quot;Take a notice&quot;&gt;&lt;/a&gt;Take a notice&lt;/h3&gt;&lt;p&gt;CC2014/2015 users may experience some interface “flashing” while clicking Preview button. It doesn’t affect anything, it’s just how things work in the new version of Photoshop &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I couldn’t find a way to fix this (if you know how — tell me in the comments)&lt;br&gt;Maybe Adobe will fix this in future patches.&lt;/p&gt;
+&lt;p&gt;Anyway, hope you’ll enjoy using updated version!&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Since Adobe have changed how some stuff work in Photoshop scripting, Transform Each script required an update. I rewrote its UI from the scratch and while I was there, I also added Preview button. And yes, it finally &lt;strong&gt;works in CC2014/2015&lt;/strong&gt;. Yay!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/transformeach21_preview-ps.gif&quot; alt=&quot;&quot;/&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Product" scheme="http://blog.darkwark.com/categories/Product/"/>
+    
+    
+      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Move Tool bug in Photoshop</title>
+    <link href="http://blog.darkwark.com/moveToolBug/"/>
+    <id>http://blog.darkwark.com/moveToolBug/</id>
+    <published>2015-04-29T09:16:45.000Z</published>
+    <updated>2016-03-05T09:19:05.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/movetool-bug/movetool-bug_main.png&quot; alt=&quot;&quot;&gt;
+Encountered with a weird bug in Photoshop today. Every time when I tried to move a layer using my wacom tablet it just snapped back to its initial position (see the gif below). At the same time, keyboard arrows and regular mouse worked normally. &lt;/p&gt;
+&lt;p&gt;It is not the first time when I encounter this, so I decided to write this post so I could remember how to fix this again, and maybe it’ll help some of you too.  &lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;How-it-looks&quot;&gt;&lt;a href=&quot;#How-it-looks&quot; class=&quot;headerlink&quot; title=&quot;How it looks&quot;&gt;&lt;/a&gt;How it looks&lt;/h2&gt;&lt;p&gt;Here’s a gif showing how this bug looks like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/movetool-bug/movetool-bug_preview.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;How-to-fix-this-OS-X&quot;&gt;&lt;a href=&quot;#How-to-fix-this-OS-X&quot; class=&quot;headerlink&quot; title=&quot;How to fix this (OS X)&quot;&gt;&lt;/a&gt;How to fix this (OS X)&lt;/h2&gt;&lt;p&gt;And in case you ever encounter the same thing here&amp;#39;s how to fix this:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Quit Photoshop and open Activity Monitor.app and shut down &lt;code&gt;WacomTabletDriver&lt;/code&gt; process&lt;/li&gt;
+  &lt;li&gt;Relaunch Wacom Tablet Driver, it is just regular *.app file stored in &lt;code&gt;/Library/Application Support/Tablet/&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Launch your Photoshop, everything should work fine now&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;Yep&quot;&gt;&lt;a href=&quot;#Yep&quot; class=&quot;headerlink&quot; title=&quot;Yep&quot;&gt;&lt;/a&gt;Yep&lt;/h2&gt;&lt;p&gt;Way to go Wacom!&lt;/p&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/movetool-bug/movetool-bug_main.png&quot; alt=&quot;&quot;&gt;
+Encountered with a weird bug in Photoshop today. Every time when I tried to move a layer using my wacom tablet it just snapped back to its initial position (see the gif below). At the same time, keyboard arrows and regular mouse worked normally. &lt;/p&gt;
+&lt;p&gt;It is not the first time when I encounter this, so I decided to write this post so I could remember how to fix this again, and maybe it’ll help some of you too.  &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tips" scheme="http://blog.darkwark.com/tags/Tips/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Parsing Colors from Image in Photoshop</title>
+    <link href="http://blog.darkwark.com/parseColors/"/>
+    <id>http://blog.darkwark.com/parseColors/</id>
+    <published>2014-08-20T20:15:24.000Z</published>
+    <updated>2016-03-05T09:25:50.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/colorParser/main.png&quot; alt=&quot;&quot;&gt;
+Recently, &lt;a href=&quot;https://twitter.com/marcedwards&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Marc Edwards&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/bjango&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;@Bjango&lt;/a&gt; wrote an &lt;a href=&quot;http://bjango.com/articles/adjustmentlayers/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;article&lt;/a&gt; on creating color palettes using adjustment layers. Pretty neat idea. But getting all of the color values from resulting image manually can be tedious. So, I made a script that solves this problem. &lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;What-it-does&quot;&gt;&lt;a href=&quot;#What-it-does&quot; class=&quot;headerlink&quot; title=&quot;What it does&quot;&gt;&lt;/a&gt;What it does&lt;/h3&gt;&lt;p&gt;Script parses image for colors and add them to your swatches library (&lt;code&gt;Window → Swatches&lt;/code&gt;)  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/colorParser/slide1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://cl.ly/X8FP/f&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download Color Parser.jsx&lt;/a&gt;
+&lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6, CC2014 or CC2015.&lt;/center&gt;&lt;/small&gt;
+You may want to place it into your &lt;code&gt;Photoshop/Presets/Scripts&lt;/code&gt; folder to have a quick access from &lt;code&gt;File → Scripts&lt;/code&gt; menu&lt;/p&gt;
+&lt;h3 id=&quot;How-to-use-it&quot;&gt;&lt;a href=&quot;#How-to-use-it&quot; class=&quot;headerlink&quot; title=&quot;How to use it&quot;&gt;&lt;/a&gt;How to use it&lt;/h3&gt;&lt;p&gt;1) First of all you’ll need a grid of colors. Read &lt;a href=&quot;http://bjango.com/articles/adjustmentlayers/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Marc’s article&lt;/a&gt; on how to make it:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/colorParser/instructions1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2) Then you have to make a rectangular selection that contains all of your colors. Use ⌘+click in Layers panel for percise selection:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/colorParser/instructions3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;3) Now it’s time to run the script. Here you’ll need to specify amount of rows and columns of your colors grid:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/colorParser/instructions4-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/colorParser/instructions4-2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;4) When you hit “OK” script will scan your selection for colors and add them to your swatches panel (&lt;code&gt;Window → Swatches&lt;/code&gt;):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/colorParser/instructions5.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;That’s it! From there you can either export your palette as Adobe Color File (.aco) or use it right away inside your Photoshop.&lt;/p&gt;
+&lt;p&gt;You actually don’t have to use rectangular or square pieces of colors for this. Just make sure that all of your colors lay down in some kind of a grid. Script will basically split your selection into zones and will pick colors from each one:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/colorParser/instructions2.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;You may want to place it into your &lt;code&gt;Photoshop/Presets/Scripts&lt;/code&gt; folder to have a quick access from &lt;code&gt;File → Scripts&lt;/code&gt; menu.&lt;/p&gt;
+&lt;p&gt;Script was tested in &lt;strong&gt;Photoshop CS5, CS6 and CC’14&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Fun-Part&quot;&gt;&lt;a href=&quot;#Fun-Part&quot; class=&quot;headerlink&quot; title=&quot;Fun Part&quot;&gt;&lt;/a&gt;Fun Part&lt;/h3&gt;&lt;p&gt;Scanning for color palettes may be fun. But what if we will use pixel art picture as a source image? Surprisingly enough, script will depict this image inside of your swatches panel!&lt;/p&gt;
+&lt;p&gt;For example, you can pick Super Mario sprite and make a rectangular selection around it:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/colorParser/supermario1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Then enter its pixel dimensions as &lt;code&gt;rows&lt;/code&gt; (height) and &lt;code&gt;columns&lt;/code&gt; (width)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/colorParser/supermario2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;And voilà!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/colorParser/supermario_animation.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Take a notice in our case script will make &lt;code&gt;29 × 18 = 522&lt;/code&gt; color swatches, so it can take few moments to finish. Also make sure to empty your swatches before running the script, here’s &lt;a href=&quot;http://viget.com/inspire/clean-up-photoshop-swatches-and-styles&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mindy Wager writes  how to do it&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Yep&quot;&gt;&lt;a href=&quot;#Yep&quot; class=&quot;headerlink&quot; title=&quot;Yep&quot;&gt;&lt;/a&gt;Yep&lt;/h3&gt;&lt;p&gt;Hope you’ll have some fun with this script! :)&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/colorParser/main.png&quot; alt=&quot;&quot;&gt;
+Recently, &lt;a href=&quot;https://twitter.com/marcedwards&quot;&gt;Marc Edwards&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/bjango&quot;&gt;@Bjango&lt;/a&gt; wrote an &lt;a href=&quot;http://bjango.com/articles/adjustmentlayers/&quot;&gt;article&lt;/a&gt; on creating color palettes using adjustment layers. Pretty neat idea. But getting all of the color values from resulting image manually can be tedious. So, I made a script that solves this problem. &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RotateMe 3.0</title>
+    <link href="http://blog.darkwark.com/rotateMe3/"/>
+    <id>http://blog.darkwark.com/rotateMe3/</id>
+    <published>2014-05-28T09:26:55.000Z</published>
+    <updated>2016-03-06T16:40:45.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/rotateme3/main.png&quot; alt=&quot;&quot;&gt;
+Hey I made a new version of RotateMe script, previous one was a bit too simple because I wrote it for &lt;a href=&quot;http://www.smashingmagazine.com/2013/07/25/introduction-to-photoshop-scripting/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SmashingMag article&lt;/a&gt; to overview scripting for Photoshop, so I decided to create something more interesting with new UI and fancy functions. And here it is.&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;What-is-it&quot;&gt;&lt;a href=&quot;#What-is-it&quot; class=&quot;headerlink&quot; title=&quot;What is it?&quot;&gt;&lt;/a&gt;What is it?&lt;/h3&gt;&lt;p&gt;Basically, RotateMe is a script that makes desired amount of clones for selected layer and places all copies around a cricle&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/rotateme3/slide1.gif&quot; alt=&quot;&quot;&gt;
+In new version you can specify radius of the circle and give some rotation to each copy&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/rotateme3/slide2.gif&quot; alt=&quot;&quot;&gt;
+So you can make some interesing things with it, like flowers, preloaders or even clock face&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/rotateme3/examples.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.kam88.com/getRotateMe3&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download [KAM] RotateMe 3.jsx&lt;/a&gt;
+&lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6, CC2014 or CC2015.&lt;/center&gt;&lt;/small&gt;
+Put downloaded file into &lt;code&gt;Photoshop/Presets/Scripts&lt;/code&gt; directory and restart your Photoshop. Script will appear in &lt;code&gt;File → Scripts → [KAM] RotateMe 3&lt;/code&gt;  &lt;/p&gt;
+&lt;p&gt;You can also setup a hotkey in &lt;code&gt;Edit→Keyboard Shortcuts…&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;Tested on Photoshop CS5, CS6 and CC.&lt;/p&gt;
+&lt;h3 id=&quot;User-Interface&quot;&gt;&lt;a href=&quot;#User-Interface&quot; class=&quot;headerlink&quot; title=&quot;User Interface&quot;&gt;&lt;/a&gt;User Interface&lt;/h3&gt;&lt;p&gt;Script’s UI looks like this: &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/rotateme3/window.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;In Properties you’ll find:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Copies&lt;/code&gt; — total amount of duplicates  &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Radius&lt;/code&gt; — distance from the center in which each copy will be placed  &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Rotation&lt;/code&gt; — here you can specify rotation for each copy  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In Options you can find:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Rotate Relative To Center&lt;/code&gt; — I guess it’s easier to show a picture:  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/images/rotateme3/rotateRelativeCenter.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I also added these options because of some requests in comments to previous scripts:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Group Layers&lt;/code&gt; — puts all new copies in a group folder  &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Save Original Layer&lt;/code&gt; — check this to save original layer, otherwise it’ll be deleted   &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Using-with-Transform-Each-2-0&quot;&gt;&lt;a href=&quot;#Using-with-Transform-Each-2-0&quot; class=&quot;headerlink&quot; title=&quot;Using with Transform Each 2.0&quot;&gt;&lt;/a&gt;Using with &lt;a href=&quot;/transformEach21&quot;&gt;Transform Each 2.0&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;/transformEach21&quot;&gt;My previous script&lt;/a&gt; can be really useful here if you want to tune up some options after using RotateMe, like rotation: &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/rotateme3/transformEach.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Or scaling of individual layers for more interesting results:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/rotateme3/transformEach2.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Yup&quot;&gt;&lt;a href=&quot;#Yup&quot; class=&quot;headerlink&quot; title=&quot;Yup&quot;&gt;&lt;/a&gt;Yup&lt;/h3&gt;&lt;p&gt;There you have it, hope you’ll have some fun with this new script. Sometimes you can come up with really interesting results, hope to see some of them in comments ;)&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/rotateme3/main.png&quot; alt=&quot;&quot;&gt;
+Hey I made a new version of RotateMe script, previous one was a bit too simple because I wrote it for &lt;a href=&quot;http://www.smashingmagazine.com/2013/07/25/introduction-to-photoshop-scripting/&quot;&gt;SmashingMag article&lt;/a&gt; to overview scripting for Photoshop, so I decided to create something more interesting with new UI and fancy functions. And here it is.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Transform Each 2.0</title>
+    <link href="http://blog.darkwark.com/transformEach2/"/>
+    <id>http://blog.darkwark.com/transformEach2/</id>
+    <published>2014-02-27T09:30:54.000Z</published>
+    <updated>2016-03-06T18:31:25.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/transformeach2/main.png&quot; alt=&quot;&quot;&gt;
+You know that feeling, when you look at your old works and think “What was I thinking!”. So, I looked at &lt;a href=&quot;http://blog.kam88.com/en/transform-each-beta-script.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Transform Each script&lt;/a&gt; with same thoughts and decided to make an update for it.&lt;/p&gt;
+&lt;p&gt;I rewrote it from the ground, fixed previous bugs, redesigned the interface and added some features, which were requested in comments. &lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;div class=&quot;notice-yellow&quot;&gt;      &lt;i class=&quot;fa fa-archive&quot;&gt;&lt;/i&gt;      &lt;h3&gt;THIS VERSION OF THE SCRIPT IS DEPRICATED&lt;/h3&gt;      &lt;p&gt;Oh, hey there. I have newer version of this script&lt;br&gt;
+&lt;a href=&quot;/transformEach21&quot;&gt;Go check out →&lt;/a&gt;&lt;/p&gt;    &lt;/div&gt;
+&lt;p&gt;If you’re new here, Transform Each is a script that gives ability to make individual transformations with a group of layers:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/transformeach2/transformEach-example.gif&quot; alt=&quot;&quot;&gt;  &lt;/p&gt;
+&lt;div class=&quot;download_widget&quot;&gt;&lt;a href=&quot;http://blog.kam88.com/getTransformEach2&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;&lt;small&gt;Requires Adobe Photoshop CS5 or CS6&lt;/small&gt;&lt;/div&gt;
+&lt;p&gt;Move downloaded file to &lt;code&gt;Photoshop/Presets/Scripts/&lt;/code&gt; and it’ll be available in Photoshop through the menu &lt;code&gt;File → Scripts → ...&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You can also set shortcut in  &lt;code&gt;Edit → Keyboard Shortcuts…&lt;/code&gt; (open  &lt;code&gt;File&amp;gt; Scripts&amp;gt;&lt;/code&gt; and find installed script).  &lt;/p&gt;
+&lt;p&gt;Tested in &lt;strong&gt;Adobe Photoshop CS5, CS6, CC&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;New-Interface&quot;&gt;&lt;a href=&quot;#New-Interface&quot; class=&quot;headerlink&quot; title=&quot;New Interface&quot;&gt;&lt;/a&gt;New Interface&lt;/h2&gt;&lt;p&gt;I guess most noticeable change is script’s new interface: &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/transformeach2/ui.png&quot; alt=&quot;New look&quot;&gt;
+I decided to get rid of &lt;code&gt;Skew&lt;/code&gt;, &lt;code&gt;Move&lt;/code&gt; and &lt;code&gt;Random&lt;/code&gt;, because, well, they were not so useful. Excpet for the &lt;code&gt;Random&lt;/code&gt; I guess, it has potential, but I think it needs some rethinking, maybe I’ll make it as a separate script someday. Anyway, as the result we have &lt;code&gt;Scale&lt;/code&gt; and &lt;code&gt;Rotate&lt;/code&gt; — functions that were most popular among people I polled. &lt;/p&gt;
+&lt;h2 id=&quot;Anchor-Point&quot;&gt;&lt;a href=&quot;#Anchor-Point&quot; class=&quot;headerlink&quot; title=&quot;Anchor Point&quot;&gt;&lt;/a&gt;Anchor Point&lt;/h2&gt;&lt;p&gt;I also added option to select the anchor point — point around which all transformations will be made. You can choose one of the nine positions: top left corner, middle center, bottom right corner etc. You can see how it works on this gif:  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/transformeach2/aPoint-example.gif&quot; alt=&quot;&quot;&gt;
+Basically it replicates functionality of the same control in Photoshop’s transform tool options.&lt;/p&gt;
+&lt;h2 id=&quot;Small-fixes&quot;&gt;&lt;a href=&quot;#Small-fixes&quot; class=&quot;headerlink&quot; title=&quot;Small fixes&quot;&gt;&lt;/a&gt;Small fixes&lt;/h2&gt;&lt;p&gt;Beside that, Transform Each now works correctly with layers inside different groups and you can now undo all script actions in one click. Finally.&lt;/p&gt;
+&lt;h2 id=&quot;Yep&quot;&gt;&lt;a href=&quot;#Yep&quot; class=&quot;headerlink&quot; title=&quot;Yep&quot;&gt;&lt;/a&gt;Yep&lt;/h2&gt;&lt;p&gt;Yeah, it’s 2.0 despite of the fact that previous version was just “Beta”. Because this is how things are work here, son.&lt;br&gt;Anyway, hope you’ll find this update useful. Have fun!&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/transformeach2/main.png&quot; alt=&quot;&quot;&gt;
+You know that feeling, when you look at your old works and think “What was I thinking!”. So, I looked at &lt;a href=&quot;http://blog.kam88.com/en/transform-each-beta-script.html&quot;&gt;Transform Each script&lt;/a&gt; with same thoughts and decided to make an update for it.&lt;/p&gt;
+&lt;p&gt;I rewrote it from the ground, fixed previous bugs, redesigned the interface and added some features, which were requested in comments. &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Group Layer Renaming</title>
+    <link href="http://blog.darkwark.com/layerRenamer/"/>
+    <id>http://blog.darkwark.com/layerRenamer/</id>
+    <published>2013-10-02T09:39:42.000Z</published>
+    <updated>2016-03-05T09:44:15.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/layerRenamer_APR/main.png&quot; alt=&quot;&quot;&gt;
+Hey! I made a script. Again. This time (I hope) it will help you with group layer renaming. Script can append, prepend or replace layer name with entered text. &lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img src=&quot;/images/layerRenamer_APR/beforeafter1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Should be useful if you are layer organization geek or if you use applications like &lt;a href=&quot;http://macrabbit.com/slicy/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Slicy&lt;/a&gt; or new Photoshop CC feature called &lt;a href=&quot;http://blogs.adobe.com/photoshopdotcom/2013/09/introducing-adobe-generator-for-photoshop-cc.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Image Assets&lt;/a&gt;, that can export layers using tags in their names.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.kam88.com/layersRenamerAPR&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
+&lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6, CC2014 or CC2015.&lt;/center&gt;&lt;/small&gt;
+Put downloaded file into &lt;code&gt;Photoshop/Presets/Scripts/&lt;/code&gt; and restart Photoshop. Script will be available in the menu &lt;code&gt;File → Scripts → [KAM] Layers Renamer - APR&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And as always you can setup a custom hotkey for the script in &lt;code&gt;Edit → Keyboard Shortcuts…&lt;/code&gt;. I have &lt;code&gt;F2&lt;/code&gt; hotkey for renaming layers (basically it is &lt;code&gt;Layer (Group) Properties&lt;/code&gt;), so I used &lt;strong&gt;alt+F2&lt;/strong&gt; for group renaming.&lt;/p&gt;
+&lt;h2 id=&quot;How-it-works&quot;&gt;&lt;a href=&quot;#How-it-works&quot; class=&quot;headerlink&quot; title=&quot;How it works&quot;&gt;&lt;/a&gt;How it works&lt;/h2&gt;&lt;p&gt;Basically, all you need is select target layers, run the script, enter new text and choose renaming method:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/layerRenamer_APR/scriptwindow.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Methods are:&lt;br&gt;&lt;code&gt;Append&lt;/code&gt; — add text at the end of the layer name;&lt;br&gt;&lt;code&gt;Prepend&lt;/code&gt; — add text at the beginning of the layer name;&lt;br&gt;&lt;code&gt;Replace&lt;/code&gt; — completely replace layer name by entered text  &lt;/p&gt;
+&lt;p&gt;I also added special keyword &lt;strong&gt;%n&lt;/strong&gt;, that will be replaced by layer’s index while renaming process.&lt;/p&gt;
+&lt;p&gt;For example, if you enter &lt;code&gt;Item #%n&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/layerRenamer_APR/n-word_step1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Then layers will have names like &lt;code&gt;Item #1&lt;/code&gt;, &lt;code&gt;Item #2&lt;/code&gt;, &lt;code&gt;Item #3&lt;/code&gt; and so on:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/layerRenamer_APR/n-word_step2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update according layer folders renaming:&lt;/strong&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p&gt;if you use &lt;a href=&quot;https://twitter.com/darkwark&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;@darkwark&lt;/a&gt;&amp;#39;s Layer Renaming script in PS CS6 – use cmd to select multiple groups not shift, then it only renames the group folder&lt;/p&gt;&amp;mdash; Matthew Rose (@matrose25) &lt;a href=&quot;https://twitter.com/matrose25/statuses/395902803996319744&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;October 31, 2013&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/center&gt;
+
+&lt;h2 id=&quot;Yup&quot;&gt;&lt;a href=&quot;#Yup&quot; class=&quot;headerlink&quot; title=&quot;Yup&quot;&gt;&lt;/a&gt;Yup&lt;/h2&gt;&lt;p&gt;Finally I released this script, hehe. Its functionality were done a while ago, but I was lazy to make a UI for it. But here it is. Hope it will help in your workflow. &lt;/p&gt;
+&lt;p&gt;Have a good week!&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/layerRenamer_APR/main.png&quot; alt=&quot;&quot;&gt;
+Hey! I made a script. Again. This time (I hope) it will help you with group layer renaming. Script can append, prepend or replace layer name with entered text. &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Introduction To Photoshop Scripting</title>
+    <link href="http://blog.darkwark.com/scriptingIntro/"/>
+    <id>http://blog.darkwark.com/scriptingIntro/</id>
+    <published>2013-07-30T09:45:09.000Z</published>
+    <updated>2016-03-05T10:05:09.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/scripting_smash/scripting-smash.png&quot; alt=&quot;&quot;&gt;
+I finished an article about basics of writing scripts for Photoshop. I walk through some theory of Photoshop Object Model and then I show step by step process of writing RotateMe script (which is remastered version of my &lt;a href=&quot;http://blog.kam88.com/en/rotateme-photoshop-actions.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;old action&lt;/a&gt;). Hope it will help some of you to get started.  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.smashingmagazine.com/2013/07/25/introduction-to-photoshop-scripting/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Read on Smashing Magazine …&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/scripting_smash/scripting-smash.png&quot; alt=&quot;&quot;&gt;
+I finished an article about basics of writing scripts for Photoshop. I wal
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Lighten / Darken Color</title>
+    <link href="http://blog.darkwark.com/lightenDarken/"/>
+    <id>http://blog.darkwark.com/lightenDarken/</id>
+    <published>2013-07-18T09:48:03.000Z</published>
+    <updated>2016-03-05T09:50:27.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/lighten-darken-color/main.png&quot; alt=&quot;Lighten / Darken Color&quot;&gt;
+While working on one project I came up with a small script that helps dealing with color in Photoshop, thought that it can be useful for someone else, so I decided to share it here&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Long story short, script makes you able to setup a hotkeys for changing foreground color’s brightness  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/lighten-darken-color/colorpick.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;There are actually two scripts: one increases brightness by 10% and another decreases it&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/lighten-darken-color/preview.png&quot; alt=&quot;Preview&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Of course, you can do it manually in color picker or in Color panel, but I always wanted to have a hotkey for this. If you missed this too, download link and instructions are below.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.kam88.com/getColorLD&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
+&lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6, CC2014 or CC2015.&lt;/center&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Installing&quot;&gt;&lt;a href=&quot;#Installing&quot; class=&quot;headerlink&quot; title=&quot;Installing&quot;&gt;&lt;/a&gt;Installing&lt;/h2&gt;&lt;p&gt;In the archive you’ll find two script files: &lt;code&gt;[KAM] Color Darken.jsx&lt;/code&gt; and &lt;code&gt;[KAM] Color Lighten.jsx&lt;/code&gt;   &lt;/p&gt;
+&lt;p&gt;You have to put them into &lt;code&gt;Photoshop/Presets/Scripts/&lt;/code&gt;, just like regular scripts, nothing special&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/lighten-darken-color/hotkey.png&quot; alt=&quot;Hotkey&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Then, you have to restart Photoshop and go to `Edit → Keyboard Shortcuts…&lt;code&gt;then&lt;/code&gt;File &amp;gt;&lt;code&gt;,&lt;/code&gt;Scripts &amp;gt;`` look for just installed scripts and setup hotkeys for them. My shortcuts look like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Color Darken — &lt;code&gt;cmd+alt+[&lt;/code&gt;  &lt;/li&gt;
+&lt;li&gt;Color Lighten — &lt;code&gt;cmd+alt+]&lt;/code&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I was kind of surprised that they were available. After configuring hotkeys you are ready to go.&lt;/p&gt;
+&lt;h2 id=&quot;Yup&quot;&gt;&lt;a href=&quot;#Yup&quot; class=&quot;headerlink&quot; title=&quot;Yup&quot;&gt;&lt;/a&gt;Yup&lt;/h2&gt;&lt;p&gt;Yeah, again blog-post about scripts for Photoshop. And I can not promise you that it will be the last one — I have  few more in the development process :P&lt;/p&gt;
+&lt;p&gt;Anyway, hope this will be helpful in your workflow. Have a good summer everyone!&lt;/p&gt;
+&lt;p&gt;P.S.: And sorry for my poor English guys, hehe (read recently in Twitter that someone is lol’ing about it)&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/lighten-darken-color/main.png&quot; alt=&quot;Lighten / Darken Color&quot;&gt;
+While working on one project I came up with a small script that helps dealing with color in Photoshop, thought that it can be useful for someone else, so I decided to share it here&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TemplateGen Beta</title>
+    <link href="http://blog.darkwark.com/templategen/"/>
+    <id>http://blog.darkwark.com/templategen/</id>
+    <published>2013-05-29T09:52:00.000Z</published>
+    <updated>2016-03-05T09:54:22.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/templategen/main.png&quot; alt=&quot;&quot;&gt;
+And here I am with new script. This time it is inteded to help you to deal with templates in Photoshop.&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;If you like me, then you know the problem with templates in Photoshop. Everything that Adobe gave us is document size presets. It’s cool, but not enough, for me at least. I have bunch of “starter-kits” for different design tasks, like iOS icon grid or iPhone screen with native navigation bar, tab bar etc. I have to duplicate them to my project folder again and again.   &lt;/p&gt;
+&lt;p&gt;I think, such routine processes should be automated and be done by computer, to save our precious time for actual work. Therefore I decided to write this script.&lt;/p&gt;
+&lt;h2 id=&quot;What-it-is&quot;&gt;&lt;a href=&quot;#What-it-is&quot; class=&quot;headerlink&quot; title=&quot;What it is?&quot;&gt;&lt;/a&gt;What it is?&lt;/h2&gt;&lt;p&gt;Here’s how it works. When you create new document in Photoshop, you can add to the end of your document name special keyword, &lt;code&gt;+960x12&lt;/code&gt; for example:   &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/templategen/newdocument.png&quot; alt=&quot;&quot;&gt;  &lt;/p&gt;
+&lt;p&gt;Then our new document will have 12 column 960 grid with guides in layer group called “Grid (960x12)”:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/templategen/newdocumentGrid.png&quot; alt=&quot;&quot;&gt;    &lt;/p&gt;
+&lt;p&gt;That’s it :)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/templategen/download.png&quot; alt=&quot;&quot;&gt;
+&lt;a href=&quot;http://blog.kam88.com/getTemplateGen&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
+&lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6&lt;/center&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Installing&quot;&gt;&lt;a href=&quot;#Installing&quot; class=&quot;headerlink&quot; title=&quot;Installing&quot;&gt;&lt;/a&gt;Installing&lt;/h3&gt;&lt;p&gt;Install process differs from regular scripts, so please read carefully and do all steps as described below:  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Move downloaded &lt;strong&gt;folder (!)&lt;/strong&gt; to &lt;code&gt;Photoshop/Presets/Scripts/Event Scripts Only/&lt;/code&gt; (if there’s no &lt;code&gt;Event Scripts Only&lt;/code&gt; folder, then create it)&lt;br&gt;Take a notice that you need to &lt;strong&gt;move whole folder&lt;/strong&gt;, not just scripts inside them.  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;/images/templategen/installed-folder.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Inside downloaded folder you’ll find file called &lt;strong&gt;+install.jsx&lt;/strong&gt;, you have to run it in Photoshop. To do this, double click on it. If somehow script will not opens in Photoshop, then run it from it manually via menu &lt;code&gt;File→Scripts→Browse&lt;/code&gt; or just drop script file into Photoshop window/icon on dock.   &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;/images/templategen/script_installed.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;It should show you message, that script was installed successfully. After this installation is completed.  &lt;/p&gt;
+&lt;h3 id=&quot;Uninstalling&quot;&gt;&lt;a href=&quot;#Uninstalling&quot; class=&quot;headerlink&quot; title=&quot;Uninstalling&quot;&gt;&lt;/a&gt;Uninstalling&lt;/h3&gt;&lt;p&gt;If you want to uninstall script, then you have to run file &lt;strong&gt;+uninstall.jsx&lt;/strong&gt;, just as described above in step 2, it’ll show you message that script was uninstalled, then you can just remove folder from your &lt;code&gt;/Scripts/Event Scripts Only/&lt;/code&gt; directory&lt;/p&gt;
+&lt;h2 id=&quot;What-other-keywords-exist&quot;&gt;&lt;a href=&quot;#What-other-keywords-exist&quot; class=&quot;headerlink&quot; title=&quot;What other keywords exist?&quot;&gt;&lt;/a&gt;What other keywords exist?&lt;/h2&gt;&lt;p&gt;I decided to add few preinstalled templates, here they are:   &lt;/p&gt;
+&lt;h3 id=&quot;960-Grid-System-from-960x2-to-960x16&quot;&gt;&lt;a href=&quot;#960-Grid-System-from-960x2-to-960x16&quot; class=&quot;headerlink&quot; title=&quot;960 Grid System: from +960x2 to +960x16&quot;&gt;&lt;/a&gt;960 Grid System: from +960x2 to +960x16&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/templategen/960gsbanner.png&quot; alt=&quot;&quot;&gt;
+This is popular &lt;a href=&quot;http://960.gs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;960.gs&lt;/a&gt; grid with from 2 to 16 columns. Here’s how it works: you write keyword &lt;code&gt;+960xN&lt;/code&gt; where &lt;code&gt;N&lt;/code&gt; can be: &lt;code&gt;2&lt;/code&gt;, &lt;code&gt;3&lt;/code&gt;, &lt;code&gt;4&lt;/code&gt;, &lt;code&gt;6&lt;/code&gt;, &lt;code&gt;8&lt;/code&gt;, &lt;code&gt;12&lt;/code&gt; or &lt;code&gt;16&lt;/code&gt;. For example, if you enter &lt;code&gt;+960x8&lt;/code&gt; it will create grid with 8 columns.&lt;br&gt;Take a notice, that your document should be at least 960 px wide.  &lt;/p&gt;
+&lt;h3 id=&quot;OSX-Icon-Template-OSXicon&quot;&gt;&lt;a href=&quot;#OSX-Icon-Template-OSXicon&quot; class=&quot;headerlink&quot; title=&quot;OSX Icon Template: +OSXicon&quot;&gt;&lt;/a&gt;OSX Icon Template: +OSXicon&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/templategen/osxiconbanner.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This keyword will make a grid for OS X icons with major sizes of 512, 256, 128, 48, 32 and 16 pixels. All sliced up and ready for export to PNG via Save for Web and Devices (don’t forget to check &lt;a href=&quot;http://c.kam88.com/NzT2/o&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;All User Slices&lt;/a&gt;)
+Minimum size of the document is 850x640 px  &lt;/p&gt;
+&lt;h3 id=&quot;iOS-Icon-Template-iOSicon&quot;&gt;&lt;a href=&quot;#iOS-Icon-Template-iOSicon&quot; class=&quot;headerlink&quot; title=&quot;iOS Icon Template: +iOSicon&quot;&gt;&lt;/a&gt;iOS Icon Template: +iOSicon&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/templategen/iosiconbanner.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This will create roundrects with major sizes for iPhone and iPad icons. Just like OS X icon template, all roundrects are sliced and ready for export to PNGs. 
+Minimum size of the document is 850x640 px  &lt;/p&gt;
+&lt;h3 id=&quot;User-Templates&quot;&gt;&lt;a href=&quot;#User-Templates&quot; class=&quot;headerlink&quot; title=&quot;User Templates&quot;&gt;&lt;/a&gt;User Templates&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/templategen/customization.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;You can use your own templates and customize existing iOS and OSX icon templates. To do this, you just have to add your PSD with template inside &lt;code&gt;/templates/&lt;/code&gt; folder. Keyword for the template will be name of the document. For example, if you have template called &lt;code&gt;test.psd&lt;/code&gt;, then keyword will be &lt;code&gt;+test&lt;/code&gt;. Take a notice, that name of the file must have only latin characters and numbers (no special symbols)&lt;/p&gt;
+&lt;p&gt;Also, inside &lt;code&gt;/templates/&lt;/code&gt; folder you’ll find iOS and OSX icon template, so you can customize or replace them if you want. &lt;/p&gt;
+&lt;p&gt;Inside document you can create text layer called &lt;strong&gt;%DocName%&lt;/strong&gt;, then it will be renamed to the new document’s name. Take a notice, that this layer should lay on the root of layers stack (e.g. it shouldn’t be in the group)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/templategen/locksize.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Also, you may have noticed, that script resizes templates to the size that was entered in the New Document dialog. If you want to prevent this and use template as is, then you need to create empty layer in your template file with name &lt;strong&gt;Lock Size&lt;/strong&gt; and place it to the top of all layers. Then script will not resize your new document and will use size of the template file&lt;/p&gt;
+&lt;h2 id=&quot;What-else&quot;&gt;&lt;a href=&quot;#What-else&quot; class=&quot;headerlink&quot; title=&quot;What else?&quot;&gt;&lt;/a&gt;What else?&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/templategen/whatelse.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;In future I want to add more dynamic templates like 960 grid, I have some thoughts about making responsive 960.gs. If you have any suggestions or ideas for the templates — add them in comments.&lt;/p&gt;
+&lt;h2 id=&quot;Yep&quot;&gt;&lt;a href=&quot;#Yep&quot; class=&quot;headerlink&quot; title=&quot;Yep&quot;&gt;&lt;/a&gt;Yep&lt;/h2&gt;&lt;p&gt;And that’s it! Hope this script will help you save some time&lt;br&gt;Thanks.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/templategen/main.png&quot; alt=&quot;&quot;&gt;
+And here I am with new script. This time it is inteded to help you to deal with templates in Photoshop.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Transform Each Beta</title>
+    <link href="http://blog.darkwark.com/transformEach/"/>
+    <id>http://blog.darkwark.com/transformEach/</id>
+    <published>2013-05-17T09:57:50.000Z</published>
+    <updated>2016-03-06T18:31:45.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/transformEach/main.png&quot; alt=&quot;&quot;&gt;
+Adobe Illustrator has nice features that I miss in Photoshop. One of them is Transform Each. When you need to transform group of layers, it transforms each of selected layers as it was transformed individually. Yeah, sounds confusing, let me explain on pictures&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;div class=&quot;notice-blue&quot;&gt;      &lt;i class=&quot;fa fa-archive&quot;&gt;&lt;/i&gt;      &lt;h3&gt;THIS VERSION OF THE SCRIPT IS DEPRICATED&lt;/h3&gt;      &lt;p&gt;Oh, hey there. I have newer version of this script&lt;br&gt;
+&lt;a href=&quot;/transformEach21&quot;&gt;Go check out →&lt;/a&gt;&lt;/p&gt;    &lt;/div&gt;
+&lt;h2 id=&quot;What-is-it&quot;&gt;&lt;a href=&quot;#What-is-it&quot; class=&quot;headerlink&quot; title=&quot;What is it?&quot;&gt;&lt;/a&gt;What is it?&lt;/h2&gt;&lt;p&gt;Imagine, that you have a feed with some text paragraphs and userpics:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/transformEach/example_step1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;You need to resize each userpic in 50%. If you’ll select all of them and transform it via default Transform Tool, then it’ll look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/transformEach/example_step2.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Not cool. Alternatively, you can choose each image and transform it manually. This can be tedious process. So, here comes Transform Each, it transforms each of selected layers as it was transformed individually: &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/transformEach/example_transformEach.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;In our case, script resized each userpic in 50%, and moved it top right in 20px.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/transformEach/download.png&quot; alt=&quot;&quot;&gt;
+&lt;div class=&quot;download_widget&quot;&gt;&lt;a href=&quot;http://blog.kam88.com/getTransformEach&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;&lt;small&gt;Requires Adobe Photoshop CS5, CS6, CC2014 or CC2015&lt;/small&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;strong&gt;Download Latest version of the script&lt;/strong&gt;&lt;/center&gt;](&lt;a href=&quot;http://blog.kam88.com/en/transform-each-20.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.kam88.com/en/transform-each-20.html&lt;/a&gt;)&lt;br&gt;You have to move downloaded file into &lt;code&gt;Photoshop/Presets/Scripts&lt;/code&gt; and restart your Photoshop&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/transformEach/hotkey.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Also don’t forget to setup a hotkey (&lt;code&gt;Edit→Keyboard Shortcuts…&lt;/code&gt;, look for &lt;code&gt;File&amp;gt;Scripts&amp;gt;[KAM] TransformEach&lt;/code&gt;). My hotkey is &lt;code&gt;cmd+alt+ctrl+T&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Window-description&quot;&gt;&lt;a href=&quot;#Window-description&quot; class=&quot;headerlink&quot; title=&quot;Window description&quot;&gt;&lt;/a&gt;Window description&lt;/h2&gt;&lt;p&gt;When you run script you’ll see this window:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/1o2s2U1P291k3V2d3z0h/transformEach.png&quot; alt=&quot;TransformEach&quot;&gt;&lt;/p&gt;
+&lt;p&gt;All inputs are from default Transform Tool, but just in case, I’ll write a bit about them:&lt;/p&gt;
+&lt;h3 id=&quot;Scale&quot;&gt;&lt;a href=&quot;#Scale&quot; class=&quot;headerlink&quot; title=&quot;Scale&quot;&gt;&lt;/a&gt;Scale&lt;/h3&gt;&lt;p&gt;Resizes layer&lt;br&gt;&lt;code&gt;Horizontal (%)&lt;/code&gt; — horizontally resizes layer. 100% — is initial size, 200% — doubled size etc.&lt;br&gt;&lt;code&gt;Vertical (%)&lt;/code&gt; — vertically resizes layer&lt;br&gt;You can enter negative values to flip object horizontally/vertically  &lt;/p&gt;
+&lt;h3 id=&quot;Move&quot;&gt;&lt;a href=&quot;#Move&quot; class=&quot;headerlink&quot; title=&quot;Move&quot;&gt;&lt;/a&gt;Move&lt;/h3&gt;&lt;p&gt;Moves layer relative to its current position&lt;br&gt;&lt;code&gt;Horizontal&lt;/code&gt; — moves layer horizontally in pixels. Positive numbers moves layer to the right, negative — to the left&lt;br&gt;&lt;code&gt;Vertical&lt;/code&gt; — moves layer vertically in pixels. Positive numbers moves layer to the bottom, negative — to the top:
+&lt;img src=&quot;/images/transformEach/move.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Shear&quot;&gt;&lt;a href=&quot;#Shear&quot; class=&quot;headerlink&quot; title=&quot;Shear&quot;&gt;&lt;/a&gt;Shear&lt;/h3&gt;&lt;p&gt;Shears layer:  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/transformEach/shear.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Horizontal&lt;/code&gt; — shears layer horizontally. Positive numbers shears layer to the left, negative — to the right.
+&lt;code&gt;Vertically&lt;/code&gt; — shears layer vertically. Positive numbers shears object to the top, negative — to the bottom&lt;/p&gt;
+&lt;h3 id=&quot;Rotate&quot;&gt;&lt;a href=&quot;#Rotate&quot; class=&quot;headerlink&quot; title=&quot;Rotate&quot;&gt;&lt;/a&gt;Rotate&lt;/h3&gt;&lt;p&gt;Rotates object&lt;br&gt;&lt;code&gt;Angle&lt;/code&gt; — angle of the layer rotation in degrees. Positive numbers rotates object clockwise, negative — counterclockwise&lt;/p&gt;
+&lt;h3 id=&quot;Scale-Styles-checkbox&quot;&gt;&lt;a href=&quot;#Scale-Styles-checkbox&quot; class=&quot;headerlink&quot; title=&quot;Scale Styles checkbox&quot;&gt;&lt;/a&gt;Scale Styles checkbox&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/transformEach/styles.png&quot; alt=&quot;&quot;&gt;
+I guess it’s self-descriptve—scales layer styles with layer.&lt;/p&gt;
+&lt;h3 id=&quot;Random-checkbox&quot;&gt;&lt;a href=&quot;#Random-checkbox&quot; class=&quot;headerlink&quot; title=&quot;Random checkbox&quot;&gt;&lt;/a&gt;Random checkbox&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/transformEach/rotate-random.png&quot; alt=&quot;&quot;&gt;
+Allows to apply random transformation to the layers in the range of initial values to new values. For example, if you’ll enter 360 in Rotate Angle and check Random, then script will randomize rotation angle for layers from 0 to 360. Same goes for scale: if you set horizontal/vertical scale to 500, then random will be in the range from 100 to 500&lt;/p&gt;
+&lt;h2 id=&quot;Some-notices&quot;&gt;&lt;a href=&quot;#Some-notices&quot; class=&quot;headerlink&quot; title=&quot;Some notices&quot;&gt;&lt;/a&gt;Some notices&lt;/h2&gt;&lt;p&gt;There’s one issue, that I’m still working on: If each of the selected layers were in their own groups, after script finish work all your layers will be in one group&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/transformEach/issue.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I’m thinking how to walkaround this thing.&lt;br&gt;Also take in mind, that if you’ll select big amount of layers it will take some time to perform all transformations&lt;/p&gt;
+&lt;h2 id=&quot;Yep&quot;&gt;&lt;a href=&quot;#Yep&quot; class=&quot;headerlink&quot; title=&quot;Yep&quot;&gt;&lt;/a&gt;Yep&lt;/h2&gt;&lt;p&gt;And that was another post with script for your Photoshop.&lt;br&gt;Hope you’ll find it useful :)&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/transformEach/main.png&quot; alt=&quot;&quot;&gt;
+Adobe Illustrator has nice features that I miss in Photoshop. One of them is Transform Each. When you need to transform group of layers, it transforms each of selected layers as it was transformed individually. Yeah, sounds confusing, let me explain on pictures&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Layer Styles&#39; Hidden Feature?</title>
+    <link href="http://blog.darkwark.com/layerStylesTrick/"/>
+    <id>http://blog.darkwark.com/layerStylesTrick/</id>
+    <published>2013-05-08T10:22:24.000Z</published>
+    <updated>2016-03-05T10:24:03.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/layerstylefeature/main.png&quot; alt=&quot;&quot; title=&quot;&quot;&gt;
+I guess everyone knows that you can copy/paste layer styles through the menu &lt;code&gt;Layer → Layer Style → Copy/Paste Layer Style&lt;/code&gt;. But what I missed is a function that will paste effects by adding them to the current layer instead of replacing everything. Let me show the example. &lt;/p&gt;
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2&gt;Prologue&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/layerstylefeature/step1.png&quot; alt=&quot;&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s say you have a circle on your canvas with &lt;code&gt;Stroke&lt;/code&gt; effect on it and you have in your clipboard style with &lt;code&gt;Inner Shadow&lt;/code&gt;. If you’ll paste it via default &lt;code&gt;Paste Layer Style&lt;/code&gt; it will replace everything and leave you with sad circle with &lt;code&gt;Inner Shadow&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/layerstylefeature/step2.png&quot; alt=&quot;&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Not cool. Sometimes I need to apply one global layer style effect (Drop Shadow for example) to few layers that are already have their own layer styles. I have to do add this style manually. Tedious process.&lt;/p&gt;
+
+&lt;h2&gt;Dear diary&lt;/h2&gt;
+
+&lt;p&gt;So, to solve this problem I decided to write a script. &lt;br&gt;
+When I made it, as usual I wanted to assign hotkey to it. As I &lt;a href=&quot;http://blog.kam88.com/en/adobe-photoshop-quick-tips.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;wrote before&lt;/a&gt;, for working with Layer Styles I have these shortcuts: &lt;br&gt;
+1. &lt;code&gt;cmd+ctrl+c&lt;/code&gt; — Copy Layer Style &lt;br&gt;
+2. &lt;code&gt;cmd+ctrl+v&lt;/code&gt; — Paste Layer Style &lt;br&gt;
+3. &lt;code&gt;cmd+ctrl+x&lt;/code&gt; — Clear Styles &lt;br&gt;
+4. &lt;code&gt;cmd+ctrl+t&lt;/code&gt; — Scale Effects &lt;br&gt;
+And I decided to assign to the script hotkey &lt;code&gt;cmd+ctrl+alt+v&lt;/code&gt;.  &lt;/p&gt;
+
+&lt;p&gt;Imagine my face, when Photoshop showed me this warning:  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/layerstylefeature/hotkeywarning.png&quot; alt=&quot;&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Photoshop already has this function! And it has same hotkey that I wanted to assign to my script!&lt;/p&gt;
+
+&lt;h2&gt;Mysterious part&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/layerstylefeature/nospeciallayerpaste.png&quot; alt=&quot;&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;But the most interesting thing is that there’s no such menu item in Photoshop at all. Like they made function, but didn’t added it to the GUI. I guess that’s why warning says, that we can’t assign different hotkey to the “Paste layer effects without replacing the current effects”—we just can’t access this functon in the &lt;code&gt;Keyboard Shortcuts…&lt;/code&gt; dialog.&lt;/p&gt;
+
+&lt;h2&gt;The essence of the post in one picture&lt;/h2&gt;
+
+&lt;p&gt;So, this time instead of script I have a hotkey for you:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/layerstylefeature/hotkey.png&quot; alt=&quot;Paste layer effects without replacing the current effects&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strike&gt;&lt;p style=&quot;color:lightgray&quot;&gt;Unfortunately, I don’t know analog combination for the Windows. We tried with my brother to press instead of cmd: grey alt, shift — nothing happened. If someone will find such hotkey for Windows — please reach me out on Twitter or in comments, I’ll update the post.  &lt;/p&gt;&lt;/strike&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; It’s not about &lt;code&gt;cmd+alt+ctrl+v&lt;/code&gt;. It’s about setting up any hotkey for the &lt;code&gt;Paste Layer Style&lt;/code&gt; and then adding &lt;code&gt;alt&lt;/code&gt; when using it. For example, if you have &lt;code&gt;cmd+ctrl+R&lt;/code&gt; for &lt;code&gt;Paste Layer Style&lt;/code&gt; you will have to hit &lt;code&gt;cmd+ctrl+alt+R&lt;/code&gt; for &lt;code&gt;Paste layer effects without replacing&lt;/code&gt;. So this should work both on Mac or PC&lt;/p&gt;
+
+&lt;h2&gt;Yep&lt;/h2&gt;
+
+&lt;p&gt;I wonder what other hidden functions Photoshop actually have.   &lt;/p&gt;
+
+&lt;p&gt;Imagine what if …&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/layerstylefeature/makeawesome.png&quot; alt=&quot;&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;B-…but… of course no… No. There’s no such function guys. And don’t try to find it. Okay?&lt;/p&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/layerstylefeature/main.png&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+I guess everyone knows that you can copy/paste layer styles through the menu &lt;code&gt;Layer → Layer Style → Copy/Paste Layer Style&lt;/code&gt;. But what I missed is a function that will paste effects by adding them to the current layer instead of replacing everything. Let me show the example. &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tips" scheme="http://blog.darkwark.com/tags/Tips/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Expanding Smart Objects</title>
+    <link href="http://blog.darkwark.com/expandSmartObject/"/>
+    <id>http://blog.darkwark.com/expandSmartObject/</id>
+    <published>2013-05-01T10:28:33.000Z</published>
+    <updated>2016-03-05T10:30:05.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/expandSmartObject/main.png&quot; alt=&quot;&quot;&gt;
+Remember a while ago I &lt;a href=&quot;http://blog.kam88.com/en/adobe-photoshop-quick-tips.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;wrote&lt;/a&gt; how to expand Smart Objects in Photoshop? So, yeah, that is kind of tedious process. Therefore, I made a script that makes all work for us.&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.kam88.com/getexpandsmobj&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
+&lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6&lt;/center&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Move downloaded file to the &lt;code&gt;/Photoshop/Presets/Scripts/&lt;/code&gt; folder and restart your Photoshop. Script will appear in the menu &lt;code&gt;File→Scripts→[KAM] Expand SmartObject&lt;/code&gt;  &lt;/p&gt;
+&lt;h2 id=&quot;Using&quot;&gt;&lt;a href=&quot;#Using&quot; class=&quot;headerlink&quot; title=&quot;Using&quot;&gt;&lt;/a&gt;Using&lt;/h2&gt;&lt;p&gt;I highly recommend you to setup a hotkey for the script (&lt;code&gt;Edit→Keyboard shortcuts…&lt;/code&gt;), something like &lt;code&gt;ctrl+cmd+E&lt;/code&gt;. And you can also assign a hotkey to the &lt;code&gt;Convert to Smart Object&lt;/code&gt; to &lt;code&gt;ctrl+cmd+S&lt;/code&gt; (it is in &lt;code&gt;Layer→Smart Objects&amp;gt;&lt;/code&gt;)  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/expandSmartObject/hotkey.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Now you can select Smart Object and press &lt;code&gt;ctrl+cmd+E&lt;/code&gt;, script will expand it as group of layers with the name of the original Smart Object and place it in the same place. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/expandSmartObject/beforeafter.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Take a notice though, &lt;strong&gt;script works only with Smart Objects that were created in Photoshop&lt;/strong&gt;. With Illustrator’s Smart Objects it will not work. Also, script expands original Smart Object, without transformations (e.g. if you resized your SmartObject in 200%, expanded will be 100% anyway)    &lt;/p&gt;
+&lt;h2 id=&quot;Yep&quot;&gt;&lt;a href=&quot;#Yep&quot; class=&quot;headerlink&quot; title=&quot;Yep&quot;&gt;&lt;/a&gt;Yep&lt;/h2&gt;&lt;p&gt;My blog is starting to filling up with scripts. I guess I should write something about vanilla design too. Or not. Anyway. Hope you’ll find the script useful. &lt;/p&gt;
+&lt;p&gt;Happy pixelin’!&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/expandSmartObject/main.png&quot; alt=&quot;&quot;&gt;
+Remember a while ago I &lt;a href=&quot;http://blog.kam88.com/en/adobe-photoshop-quick-tips.html&quot;&gt;wrote&lt;/a&gt; how to expand Smart Objects in Photoshop? So, yeah, that is kind of tedious process. Therefore, I made a script that makes all work for us.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vertical Rhythm Pattern Pack</title>
+    <link href="http://blog.darkwark.com/verticalRhythm/"/>
+    <id>http://blog.darkwark.com/verticalRhythm/</id>
+    <published>2013-04-24T10:34:19.000Z</published>
+    <updated>2016-03-05T10:36:07.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/vRhythmPat/main.png&quot; alt=&quot;&quot;&gt;
+Vertical Rhythm is a useful thing. Usually I’m using default Photoshop grid to set it up. But this is not the best solution because sometimes I need native grid for other things. In such cases fast created patterns helps me, I don’t usually save them and because of that they are sink into oblivion after switching between different pattern packs and I have to make new pattern again and again (silly, yeah). So, I decided to generate a single pattern pack with popular leading values for daily use in projects.&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.kam88.com/getvRhythmPat&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download Vertical Rhythm Pack.pat&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;You have to move it to the &lt;code&gt;Photoshop/Presets/Patterns/&lt;/code&gt; and restart your Photoshop. Then you’ll see it in the list of all pattern sets in the context menu of pattern window  &lt;/p&gt;
+&lt;h2 id=&quot;Sizes&quot;&gt;&lt;a href=&quot;#Sizes&quot; class=&quot;headerlink&quot; title=&quot;Sizes&quot;&gt;&lt;/a&gt;Sizes&lt;/h2&gt;&lt;p&gt;In the pattern pack you’ll find following versions of leading: 6, 8, 9, 10, 11, 12, 14, 18, 20, 24, 25, 30, 35, 36, 45, 48, 50, 55, 60, 72. Simply, these are values of leading from native font panel in Photoshop and some additional values that I use sometimes  &lt;/p&gt;
+&lt;h2 id=&quot;Using&quot;&gt;&lt;a href=&quot;#Using&quot; class=&quot;headerlink&quot; title=&quot;Using&quot;&gt;&lt;/a&gt;Using&lt;/h2&gt;&lt;p&gt;The best way to use these patterns will be createing Pattern Fill Layer (&lt;code&gt;Layer → New Fill Layer → Pattern…&lt;/code&gt;), choosing apropriate pattern for your leading and setting up opacity for the layer&lt;br&gt;&lt;img src=&quot;/images/vRhythmPat/names.png&quot; alt=&quot;&quot;&gt;
+Patterns have names in the format &lt;code&gt;20px leading&lt;/code&gt;, therefore it would be better if you’ll switch view of the patterns window to Large List, you can do it in the context menu of the pattern panel&lt;br&gt;&lt;img src=&quot;/images/vRhythmPat/darklight.png&quot; alt=&quot;&quot;&gt;
+At the result you’ll have black lines with selected height. If you want to use it on the dark background, just switch blending mode to &lt;code&gt;Divide&lt;/code&gt; this will change color of lines to white  &lt;/p&gt;
+&lt;h2 id=&quot;Yup&quot;&gt;&lt;a href=&quot;#Yup&quot; class=&quot;headerlink&quot; title=&quot;Yup&quot;&gt;&lt;/a&gt;Yup&lt;/h2&gt;&lt;p&gt;That’s it for today. Hope these patterns will help you in your work. I made them via script by the way, I just have an array of all sizes and script generates all patterns. So if you have suggestions for other sizes — write them down in comments and I’ll update the file&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/vRhythmPat/main.png&quot; alt=&quot;&quot;&gt;
+Vertical Rhythm is a useful thing. Usually I’m using default Photoshop grid to set it up. But this is not the best solution because sometimes I need native grid for other things. In such cases fast created patterns helps me, I don’t usually save them and because of that they are sink into oblivion after switching between different pattern packs and I have to make new pattern again and again (silly, yeah). So, I decided to generate a single pattern pack with popular leading values for daily use in projects.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Layout Wrapper for Photoshop</title>
+    <link href="http://blog.darkwark.com/layoutWrapper/"/>
+    <id>http://blog.darkwark.com/layoutWrapper/</id>
+    <published>2013-04-16T10:37:19.000Z</published>
+    <updated>2016-03-05T10:38:58.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/LayoutWrapper/main.png&quot; alt=&quot;&quot;&gt;
+I continue my experiments with scripting for Photoshop and recently I made thing that wraps document with a Safari browser window. For presentational purposes…and just for fun.&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;How-it-works&quot;&gt;&lt;a href=&quot;#How-it-works&quot; class=&quot;headerlink&quot; title=&quot;How it works&quot;&gt;&lt;/a&gt;How it works&lt;/h2&gt;&lt;p&gt;Script makes a snapshot of the current document and places it into Safari browser window in new document. Title of the window and text in address bar will be the same as original document’s name. But you can change it to whatever you want—text layers are editable. You can change favicon and background color too  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/LayoutWrapper/beforeafter.png&quot; alt=&quot;&quot;&gt;
+Take a notice, that &lt;strong&gt;minimum size of the document is 160×1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.kam88.com/getlayoutwrapper&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
+&lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6&lt;/center&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Installation&quot;&gt;&lt;a href=&quot;#Installation&quot; class=&quot;headerlink&quot; title=&quot;Installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Please read it carefully&lt;/strong&gt;, installation process differs from regular scripts install.
+In the archive you’ll find &lt;code&gt;LayoutWrapper&lt;/code&gt; folder you have to move it to &lt;code&gt;%Photoshop folder%/Presets/Scripts/&lt;/code&gt;, properly installed script will look like this:   &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/LayoutWrapper/installplace.png&quot; alt=&quot;&quot;&gt;
+After restarting Photoshop you can access script in from the menu &lt;code&gt;File→Scripts→[KAM] LayoutWrapper&lt;/code&gt; (you’ll have to restart Photoshop to see it in this menu)&lt;/p&gt;
+&lt;h2 id=&quot;Hint-Setup-a-hotkey&quot;&gt;&lt;a href=&quot;#Hint-Setup-a-hotkey&quot; class=&quot;headerlink&quot; title=&quot;Hint: Setup a hotkey&quot;&gt;&lt;/a&gt;Hint: Setup a hotkey&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/LayoutWrapper/hotkey.png&quot; alt=&quot;&quot;&gt;
+To make it more comfortable to use I suggest to set a hotkey for the script. To do this you have to go &lt;code&gt;Edit → Keyboard Shortcuts…&lt;/code&gt; unfold &lt;code&gt;File → Scripts &amp;gt;&lt;/code&gt; and choose your hotkey for the &lt;code&gt;[KAM] LayoutWrapper&lt;/code&gt;. For example, &lt;code&gt;alt+cmd+F3&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Yup&quot;&gt;&lt;a href=&quot;#Yup&quot; class=&quot;headerlink&quot; title=&quot;Yup&quot;&gt;&lt;/a&gt;Yup&lt;/h2&gt;&lt;p&gt;Hope you’ll find this script useful. I’m thinking about adding other browsers and maybe devices in future versions. At least I want to add Chrome and &lt;a href=&quot;http://drbl.in/elSA&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;dark side versions of the browsers&lt;/a&gt;. If you have any ideas or suggestions—drop me a line in Twitter or here in comments.&lt;/p&gt;
+&lt;p&gt;P.S.: This is &lt;a href=&quot;http://c.kam88.com/OJdF/o&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Browser Inception&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/LayoutWrapper/main.png&quot; alt=&quot;&quot;&gt;
+I continue my experiments with scripting for Photoshop and recently I made thing that wraps document with a Safari browser window. For presentational purposes…and just for fun.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Isometrify</title>
+    <link href="http://blog.darkwark.com/isometrify/"/>
+    <id>http://blog.darkwark.com/isometrify/</id>
+    <published>2013-02-14T10:40:32.000Z</published>
+    <updated>2016-03-05T10:43:57.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/isometrify/main.png&quot; alt=&quot;&quot;&gt;
+Inspired by some guys who makes custom panels for Photoshop, I decided to make my own. And here it is, I made “Isometrify” — Adobe Photoshop CS5+ extension than helps transform objects into isometry and generate custom sized grid for it. &lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;Some-notices&quot;&gt;&lt;a href=&quot;#Some-notices&quot; class=&quot;headerlink&quot; title=&quot;Some notices&quot;&gt;&lt;/a&gt;Some notices&lt;/h2&gt;&lt;h3 id=&quot;Isometry-Angle&quot;&gt;&lt;a href=&quot;#Isometry-Angle&quot; class=&quot;headerlink&quot; title=&quot;Isometry Angle&quot;&gt;&lt;/a&gt;Isometry Angle&lt;/h3&gt;&lt;p&gt;In my panel I use angle of isometry that equals 26.565 degrees, it’s commonly used in pixel art world. Math isometry has 30 degrees. In future I’m planing to make angle defined by user.  &lt;/p&gt;
+&lt;h3 id=&quot;Working-with-bitmaps&quot;&gt;&lt;a href=&quot;#Working-with-bitmaps&quot; class=&quot;headerlink&quot; title=&quot;Working with bitmaps&quot;&gt;&lt;/a&gt;Working with bitmaps&lt;/h3&gt;&lt;p&gt;Isometrify doesn’t work good with bitmaps, it’s inteded to use with shape layers only. You still can use it with raster graphics, but results will be not so good.&lt;/p&gt;
+&lt;h3 id=&quot;Pixel-grid-snapping&quot;&gt;&lt;a href=&quot;#Pixel-grid-snapping&quot; class=&quot;headerlink&quot; title=&quot;Pixel grid snapping&quot;&gt;&lt;/a&gt;Pixel grid snapping&lt;/h3&gt;&lt;p&gt;There’s some issues with pixel snapping while transform, sometimes shapes don’t fit into pixel grid, so you’ll have to move it manually with direct selection tool. At least in CS5, I guess in CS6 situation is better.&lt;/p&gt;
+&lt;h2 id=&quot;Isometric-Top-Left-Right&quot;&gt;&lt;a href=&quot;#Isometric-Top-Left-Right&quot; class=&quot;headerlink&quot; title=&quot;Isometric Top / Left/ Right&quot;&gt;&lt;/a&gt;Isometric Top / Left/ Right&lt;/h2&gt;&lt;p&gt;First three buttons are made for transforming shapes in each direction. You can trasnform group of objects and text layers too.&lt;/p&gt;
+&lt;h3 id=&quot;Left&quot;&gt;&lt;a href=&quot;#Left&quot; class=&quot;headerlink&quot; title=&quot;Left&quot;&gt;&lt;/a&gt;Left&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/isometrify/left.png&quot; alt=&quot;&quot;&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;Right&quot;&gt;&lt;a href=&quot;#Right&quot; class=&quot;headerlink&quot; title=&quot;Right&quot;&gt;&lt;/a&gt;Right&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/isometrify/right.png&quot; alt=&quot;&quot;&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;Top&quot;&gt;&lt;a href=&quot;#Top&quot; class=&quot;headerlink&quot; title=&quot;Top&quot;&gt;&lt;/a&gt;Top&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/isometrify/top.png&quot; alt=&quot;&quot;&gt;  &lt;/p&gt;
+&lt;h2 id=&quot;Generate-Grid&quot;&gt;&lt;a href=&quot;#Generate-Grid&quot; class=&quot;headerlink&quot; title=&quot;Generate Grid&quot;&gt;&lt;/a&gt;Generate Grid&lt;/h2&gt;&lt;p&gt;This button generates isometric grid pattern with customized size. Take a notice, that size you enter is for size of one of the sides of square:&lt;br&gt;&lt;img src=&quot;/images/isometrify/grid.png&quot; alt=&quot;Grid&quot;&gt;
+Pattern will be saved in your current asset with name “Isometry Grid N”, where N is size of grid  &lt;/p&gt;
+&lt;h2 id=&quot;Extended-version&quot;&gt;&lt;a href=&quot;#Extended-version&quot; class=&quot;headerlink&quot; title=&quot;Extended version&quot;&gt;&lt;/a&gt;Extended version&lt;/h2&gt;&lt;p&gt;I’m planing to release new version in future, so at this moment I’m working on functions like:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Extrude — shape extruding in any isometric direction (top/bottom, diagonal left, diagonal right, etc.)  &lt;/li&gt;
+&lt;li&gt;Moving objects in isometry space (sometimes it can be frustrating to move object exactly in the isometric diagonal)  &lt;/li&gt;
+&lt;li&gt;New visual interface, that will be more pleasant  &lt;/li&gt;
+&lt;li&gt;Custom isometry angle&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.kam88.com/getisometrify&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
+&lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6&lt;/center&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;For installing you’ll need just double click on downloaded file, it should be opened in Adobe Extension Manager and take care of everything.&lt;br&gt;If you have issues about “Unknown Extension Signature” try installing &lt;a href=&quot;http://blogs.adobe.com/cssdk/2011/12/fix-for-extension-signature-bug-on-mac-os-10-7-patch-posted.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;this fix&lt;/a&gt;&lt;br&gt;After installing you’ll need to restart your Photoshop, new panel can be found in Window → Extensions → Isometrify  &lt;/p&gt;
+&lt;h2 id=&quot;Feedback&quot;&gt;&lt;a href=&quot;#Feedback&quot; class=&quot;headerlink&quot; title=&quot;Feedback&quot;&gt;&lt;/a&gt;Feedback&lt;/h2&gt;&lt;p&gt;Making this panel was fun, hope you’ll have some while using it too. If you have some feature requests or suggestions, please feel free to leave it in comments or send them to me to email/twitter.
+&lt;em&gt;Enjoy!&lt;/em&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/isometrify/main.png&quot; alt=&quot;&quot;&gt;
+Inspired by some guys who makes custom panels for Photoshop, I decided to make my own. And here it is, I made “Isometrify” — Adobe Photoshop CS5+ extension than helps transform objects into isometry and generate custom sized grid for it. &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Extensions" scheme="http://blog.darkwark.com/tags/Extensions/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Drawing on iPad</title>
+    <link href="http://blog.darkwark.com/drawing-on-iPad/"/>
+    <id>http://blog.darkwark.com/drawing-on-iPad/</id>
+    <published>2013-01-28T10:50:41.000Z</published>
+    <updated>2016-03-05T10:53:21.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/drawing-on-ipad/main.png&quot; alt=&quot;&quot;&gt;
+Recently I bought stylus for an iPad, I used it for couple of months and in today’s post I want to tell you about my impressions from drawing on iPad.&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;Choosing-stylus&quot;&gt;&lt;a href=&quot;#Choosing-stylus&quot; class=&quot;headerlink&quot; title=&quot;Choosing stylus&quot;&gt;&lt;/a&gt;Choosing stylus&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/drawing-on-ipad/wacom-bamboo-stylus.png&quot; alt=&quot;&quot;&gt;
+Really, there were not too much of thinking. Before buying iPad I already knew that I’ll get Wacom’s stylus for it. Wacom has established itself as great comapany with great products for artists, so I had no ideas why I should check othere noname styluses. After buying stylus I watched few comparsion reviews and most of them put Wacom’s stylus in first rows. 
+I got it for 60 bucks (because this is Russia!), but I guess in whole world you can get it in half price or something. You can also buy replacement nibs (&lt;a href=&quot;http://www.wacom.com/products/accessories/nibs-and-ink-refills/bamboo-stylus-soft-nibs-3pack&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Soft&lt;/a&gt; and &lt;a href=&quot;http://www.wacom.com/products/accessories/nibs-and-ink-refills/bamboo-stylus-firm-nibs-3pack&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Firm Nibs&lt;/a&gt;  — have no idea what’s difference).&lt;/p&gt;
+&lt;h2 id=&quot;Using-stylus&quot;&gt;&lt;a href=&quot;#Using-stylus&quot; class=&quot;headerlink&quot; title=&quot;Using stylus&quot;&gt;&lt;/a&gt;Using stylus&lt;/h2&gt;&lt;p&gt;First of all I want to say, that you’ll not get super precise drawing with stylus for iPad. It has some kind of soft ball at the tip, so you’ll have some “deadzone” in 0.3–0.5mm. In addition you can’t put whole hand on the iPad like in drawing on paper — because you’ll start to tap on touchscreen by this. So you can either use a glove (you can buy &lt;a href=&quot;http://www.smudgeguard.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;special glove&lt;/a&gt; if you want) or try to adapt to not put your hand on display. I tired to wear glove (regular glove), but at the end I’m just trying to not put hand on iPad.&lt;br&gt;Besides, there’s some lags while drawing.  &lt;/p&gt;
+&lt;p&gt;Yeah, sounds not so optimistic. But it worth trying anyway. And below I’ll tell you a bit about apps for drawing.&lt;/p&gt;
+&lt;h2 id=&quot;Apps-for-drawing&quot;&gt;&lt;a href=&quot;#Apps-for-drawing&quot; class=&quot;headerlink&quot; title=&quot;Apps for drawing&quot;&gt;&lt;/a&gt;Apps for drawing&lt;/h2&gt;&lt;p&gt;There a LOTS of apps for drawing in iTunes Store. I tried most popular of them, and here’re my impressions about them:&lt;/p&gt;
+&lt;h3 id=&quot;Bamboo-Paper-Free-1-99&quot;&gt;&lt;a href=&quot;#Bamboo-Paper-Free-1-99&quot; class=&quot;headerlink&quot; title=&quot;Bamboo Paper (Free + $1.99)&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://itunes.apple.com/en/app/bamboo-paper-notebook/id443131313?mt=8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Bamboo Paper&lt;/a&gt; (Free + $1.99)&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/drawing-on-ipad/bamboo-paper.png&quot; alt=&quot;&quot;&gt;
+This is official Wacom’s app and it has most quick response time. Almost like on regular paper. As useful functions, there’s small circle that indicates size of eraser, dunno why but only Bamboo Paper has this. But it has lack of tools and colors. You can’t choose exact size of brush tip, you have only 3 presents for each tool. Also you can’t pick RGB/HSB color, only from selected colors. It has no layers. But the fact that it works REALLY fast is kinda big advantage in comparsion to other apps.&lt;/p&gt;
+&lt;h3 id=&quot;Autodesk-SketchBook-Free-4-99&quot;&gt;&lt;a href=&quot;#Autodesk-SketchBook-Free-4-99&quot; class=&quot;headerlink&quot; title=&quot;Autodesk SketchBook (Free + $4.99)&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/sketchbook-pro-for-ipad/id364253478?mt=8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Autodesk SketchBook&lt;/a&gt; (Free + $4.99)&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/drawing-on-ipad/autodesk-sketchbook.png&quot; alt=&quot;&quot;&gt;
+Pretty old app, but I guess it has big amount of fans both on desktop and tablets. It has layers, brushes/tools and other useful things like Symmetry Tool. But big disadvantage of the app is its speed. Laggy-choppy, even on The New iPad. Not sure how well it works on previous models.&lt;/p&gt;
+&lt;h3 id=&quot;Adobe-Ideas-9-99&quot;&gt;&lt;a href=&quot;#Adobe-Ideas-9-99&quot; class=&quot;headerlink&quot; title=&quot;Adobe Ideas ($9.99)&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://itunes.apple.com/en/app/adobe-ideas/id364617858?mt=8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Adobe Ideas&lt;/a&gt; ($9.99)&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/drawing-on-ipad/adobe-ideas.png&quot; alt=&quot;&quot;&gt;
+Adobe’s app reminds me Bamboo Paper somehow, but it has more tools and layers (also there’s color HSB picker). Looks pretty well and works kinda fast (not so fast as Bamboo though). Drawing mechanics reminds me Flash drawing (or Blob Brush Tool from Ai) — there’s line smoothing and everything is in vector, so you can send your drawing via email in PDF file. There’s also Creative Cloud sync.&lt;/p&gt;
+&lt;h3 id=&quot;Procreate-4-99&quot;&gt;&lt;a href=&quot;#Procreate-4-99&quot; class=&quot;headerlink&quot; title=&quot;Procreate ($4.99)&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/procreate-sketch-paint-create./id425073498?mt=8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Procreate&lt;/a&gt; ($4.99)&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/drawing-on-ipad/procreate.png&quot; alt=&quot;&quot;&gt;
+Procreate calls itself “A studio of tools at your finger tips”. And it has pretty big amount of tools and brushes. You can also create your own via uploading image from Camera Roll or Dropbox. Nice app.&lt;/p&gt;
+&lt;h3 id=&quot;Paper-by-FiftyThree-Free-6-99&quot;&gt;&lt;a href=&quot;#Paper-by-FiftyThree-Free-6-99&quot; class=&quot;headerlink&quot; title=&quot;Paper by FiftyThree (Free + $6.99)&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://itunes.apple.com/en/app/paper-by-fiftythree/id506003812?mt=8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Paper by FiftyThree&lt;/a&gt; (Free + $6.99)&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/drawing-on-ipad/paper53.png&quot; alt=&quot;&quot;&gt;
+Yeah, Paper. I bet there’s no person who didn’t heard about this app. It is pretty popular app in iTunes Store. Before buying iPad I thought that it’ll be the first app I’ll try. And it was. But honestly I’m kinda disapointed about it. It looks pretty nice and stylish. Moleskine, pages animation — looks great. But there’s no page zoom or layers and it has kinda uncomfortable way of undu/redo (they call it “Rewind”, I call it “How to make this damn thing work like I want”). So Paper by FiftyThree for me is app that is nice to love…but on some distance.   &lt;/p&gt;
+&lt;h3 id=&quot;My-choice&quot;&gt;&lt;a href=&quot;#My-choice&quot; class=&quot;headerlink&quot; title=&quot;My choice&quot;&gt;&lt;/a&gt;My choice&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/drawing-on-ipad/thumb_autodesk-sketchbook-2.png&quot; alt=&quot;&quot;&gt;
+All these apps have their strengths and weaknesses. I wish there were an app that combined all strengths and filters all glitchy things (I’m betting on Procreate — looks like developers work pretty hard on each update). So at the end, most used apps for drawing on my iPad are &lt;strong&gt;Autodesk’s SketchBook Pro&lt;/strong&gt; and &lt;strong&gt;Procreate&lt;/strong&gt;.&lt;br&gt;I wish Wacom will add some more functions to the Bamboo Paper, because really it most of the fastest apps in store.&lt;/p&gt;
+&lt;h2 id=&quot;In-conclusion&quot;&gt;&lt;a href=&quot;#In-conclusion&quot; class=&quot;headerlink&quot; title=&quot;In conclusion&quot;&gt;&lt;/a&gt;In conclusion&lt;/h2&gt;&lt;p&gt;At this moment because of slow response time, low accuracy of stylus and app’s lags I don’t see it as professional tool. It is no way Cintiq/Intous killer or something. It’s more like a thing to have fun with before going to sleep and scribble bunch of doodlings. Sad, but true.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/drawing-on-ipad/main.png&quot; alt=&quot;&quot;&gt;
+Recently I bought stylus for an iPad, I used it for couple of months and in today’s post I want to tell you about my impressions from drawing on iPad.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Review" scheme="http://blog.darkwark.com/tags/Review/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How I did a test task</title>
+    <link href="http://blog.darkwark.com/hh-test/"/>
+    <id>http://blog.darkwark.com/hh-test/</id>
+    <published>2013-01-21T10:54:42.000Z</published>
+    <updated>2016-03-05T10:55:34.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/hh-test/en/main.png&quot; alt=&quot;&quot;&gt;
+About 2 months ago I saw a blog post with vacancy of “Mobile designer” for one russian company called HeadHunter (it’s something like LinkedIn in Russia). That vacancy had a test task, I love to practice in free time, so I decided to make it, just for fun. In this post I wanted to tell about some process of my work. 
+Because why not? :)  &lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;Task&quot;&gt;&lt;a href=&quot;#Task&quot; class=&quot;headerlink&quot; title=&quot;Task&quot;&gt;&lt;/a&gt;Task&lt;/h2&gt;&lt;p&gt;So, here’s a text of the task (poorly translated from Russian by me):&lt;br&gt;“&lt;em&gt;Every сandidate on the hh.ru has a page with responses and invites from employers. Design a layout of this page for mobile platform of your choice&lt;/em&gt;”  &lt;/p&gt;
+&lt;p&gt;Here’s a page:
+&lt;span class=&quot;thumbnail-image-block ssNonEditable&quot;&gt;&lt;span&gt;&lt;a href=&quot;/display/ShowImage?imageUrl=%2Fstorage%2Fpost-images%2Fhh-test%2Fotkliki.png%3F__SQUARESPACE_CACHEVERSION%3D1358795288054&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/storage/thumbnails/11079849-21703696-thumbnail.jpg?__SQUARESPACE_CACHEVERSION=1358795292644&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt; &lt;/p&gt;
+&lt;h2 id=&quot;Analysis-of-page&quot;&gt;&lt;a href=&quot;#Analysis-of-page&quot; class=&quot;headerlink&quot; title=&quot;Analysis of page&quot;&gt;&lt;/a&gt;Analysis of page&lt;/h2&gt;&lt;p&gt;First of all, I decided to look at the page and try to determine its main blocks, that’ll be transferred to the mobile screen. Our app is &lt;em&gt;mobile&lt;/em&gt;, so we can’t just move everything that we see to the screen, it’ll be a mess and user will be confused by all these fancy things going on there.&lt;/p&gt;
+&lt;p&gt;Actually, “analysis” is kinda big word for this page — it’s quite obvious what will be on the mobile screen:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Content: List of responses  &lt;/li&gt;
+&lt;li&gt;Tab bar: Main sections of the site  &lt;/li&gt;
+&lt;li&gt;Navigation bar: Settings and Response filter  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Content-List-of-responses&quot;&gt;&lt;a href=&quot;#Content-List-of-responses&quot; class=&quot;headerlink&quot; title=&quot;Content: List of responses&quot;&gt;&lt;/a&gt;Content: List of responses&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/hh-test/en/view1.png&quot; alt=&quot;&quot;&gt;
+I think that most of the cases user will see repsonses for the same type of vacancies (you’ll rarely see designer who’s trying to find work of cook or security guard of small shop in criminal city district). So beause of that I decided that name of company is more important in the response and I highlighted it first with bold font and only then I added vacancy name and response text. More information of response should be shown when user opens detailed view of the response by tapping on it.&lt;br&gt;&lt;img src=&quot;/images/hh-test/status-icons.png&quot; alt=&quot;&quot;&gt;
+Instead of color coding of the whole row cell I deciced to draw icons for each response statuses (&lt;em&gt;because, I love icons you know&lt;/em&gt;).  &lt;/p&gt;
+&lt;h2 id=&quot;Tab-bar-Main-sections&quot;&gt;&lt;a href=&quot;#Tab-bar-Main-sections&quot; class=&quot;headerlink&quot; title=&quot;Tab bar: Main sections&quot;&gt;&lt;/a&gt;Tab bar: Main sections&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/hh-test/tabicons.png&quot; alt=&quot;Tab Bar Glyphs&quot;&gt;
+Main sections of the app are:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jobs search  &lt;/li&gt;
+&lt;li&gt;Responses  &lt;/li&gt;
+&lt;li&gt;My CV’s&lt;br&gt;I drew icons for each section and placed them into tab bar   &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Navigation-bar-Settings-and-Response-filter&quot;&gt;&lt;a href=&quot;#Navigation-bar-Settings-and-Response-filter&quot; class=&quot;headerlink&quot; title=&quot;Navigation bar: Settings and Response filter&quot;&gt;&lt;/a&gt;Navigation bar: Settings and Response filter&lt;/h2&gt;&lt;p&gt;I had some problems in deciding what color to use in the navigation bar. Web site has main colors of blue, gray and red. In the final I decided to choose red, because this color exist in logotype and &lt;em&gt;because it’s a color of love&lt;/em&gt;*  &lt;/p&gt;
+&lt;p&gt;On the navigation bar I placed settings button and button for response filter, which represented as popup with list of all types of responses. For each type I drew an icon:&lt;br&gt;&lt;img src=&quot;/images/hh-test/en/view2.png&quot; alt=&quot;&quot;&gt;
+I also had an idea to dynamicly change icon on the navigation bar depending on what filter type was choosen. But this could confuse user, because some of the response types visually are matching with standart functions like Delete and Archive. &lt;/p&gt;
+&lt;h2 id=&quot;That’s-all-Folks&quot;&gt;&lt;a href=&quot;#That’s-all-Folks&quot; class=&quot;headerlink&quot; title=&quot;That’s all, Folks!&quot;&gt;&lt;/a&gt;That’s all, Folks!&lt;/h2&gt;&lt;p&gt;I guess that’s all. I worked on this view at the beginning of December 2012, so some things I would do differently today. For example I could replace filter popup with some kind of side menu.&lt;/p&gt;
+&lt;p&gt;Anyway, that was something from my process, hope it was intresting for you. See you in comments or Twitter replies ;)&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/hh-test/en/main.png&quot; alt=&quot;&quot;&gt;
+About 2 months ago I saw a blog post with vacancy of “Mobile designer” for one russian company called HeadHunter (it’s something like LinkedIn in Russia). That vacancy had a test task, I love to practice in free time, so I decided to make it, just for fun. In this post I wanted to tell about some process of my work. 
+Because why not? :)  &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Process" scheme="http://blog.darkwark.com/tags/Process/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spacebar bug in Adobe Photoshop</title>
+    <link href="http://blog.darkwark.com/spacebar-bug/"/>
+    <id>http://blog.darkwark.com/spacebar-bug/</id>
+    <published>2012-10-08T10:56:57.000Z</published>
+    <updated>2016-03-05T10:58:39.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/spacebar-bug/spacebar-bug.png&quot;&gt;
+I see more and more people are struggling with this bug in Adobe Photoshop, so I decided to write this quick note and show a way how to cope with it. &lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Bug is that Adobe Photoshop suddenly stop responding to the spacebar (Pan Tool) — this is because some of your apps are conflicting with Photoshop. So, to solve this problem you just need to shut down this application. Since you need to determine this app, you’ll have to shut down everything (except Photoshop) — from app to app — and check your Photoshop to see does your spacebar get back to normal or not. Here I want to provide a list of commonly conflicting apps: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Browsers (Safari, Chrome, Opera etc.)&lt;/li&gt;
+&lt;li&gt;Apps that have built-in browser (For example, Reeder, Little Snapper etc.)&lt;/li&gt;
+&lt;li&gt;iMessages &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you found conflicting app, that is not in this list, please tell me about it here in comments or in &lt;a href=&quot;http://twitter.com/darkwark&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;twitter&lt;/a&gt;, I’ll update this list.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/spacebar-bug/spacebar-bug.png&quot;/&gt;
+I see more and more people are struggling with this bug in Adobe Photoshop, so I decided to write this quick note and show a way how to cope with it. &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tips" scheme="http://blog.darkwark.com/tags/Tips/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Adobe Photoshop Quick Tips</title>
+    <link href="http://blog.darkwark.com/photoshop-quick-tips/"/>
+    <id>http://blog.darkwark.com/photoshop-quick-tips/</id>
+    <published>2012-05-30T11:02:00.000Z</published>
+    <updated>2016-03-05T11:05:43.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/ps_tips-n-tricks/main.png&quot; alt=&quot;&quot;&gt;
+Not all things work like we want in Photoshop. Sometimes we need to find some workarounds to make what we need. While using Photoshop for a while, I gained few tricks in my workflow and today I want to share them with you&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;Isolate-shape-edit&quot;&gt;&lt;a href=&quot;#Isolate-shape-edit&quot; class=&quot;headerlink&quot; title=&quot;Isolate shape edit&quot;&gt;&lt;/a&gt;Isolate shape edit&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/ps_tips-n-tricks/1_isolateshapes.png&quot; alt=&quot;&quot;&gt;
+You know these times, when your canvas is filled with bunch of shape layers, and you need to edit one of them, you selecting Direct Selection Tool (A) and then accedently miss your anchor and selecting another shape layer, even it’s locked. Yeah, not cool. But there’s workaround for that. When you refining your shape layer, hit &lt;strong&gt;“Q” (quickmask)&lt;/strong&gt;, it’ll lock your layer from others, and you can freely click everywhere on the canvas and move your anchor points. But don’t forget to exit quickmask mode (again &lt;strong&gt;hit “Q”&lt;/strong&gt;), after you finish&lt;/p&gt;
+&lt;h3 id=&quot;How-to-expand-Smart-Object&quot;&gt;&lt;a href=&quot;#How-to-expand-Smart-Object&quot; class=&quot;headerlink&quot; title=&quot;How to expand Smart-Object&quot;&gt;&lt;/a&gt;How to expand Smart-Object&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/ps_tips-n-tricks/2_expandsmartobject.png&quot; alt=&quot;&quot;&gt;
+Open your smart object, group everything to the new folder (just to don’t mess your main psd with layers), then select it, go to the &lt;strong&gt;Layer → Duplicate Layer&lt;/strong&gt;, and choose your main PSD. Now you can return to your main file and remove initial Smart-Object&lt;/p&gt;
+&lt;h3 id=&quot;How-to-scale-both-layers-and-styles-at-same-time&quot;&gt;&lt;a href=&quot;#How-to-scale-both-layers-and-styles-at-same-time&quot; class=&quot;headerlink&quot; title=&quot;How to scale both layers and styles at same time&quot;&gt;&lt;/a&gt;How to scale both layers and styles at same time&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/ps_tips-n-tricks/3_scalefx.png&quot; alt=&quot;&quot;&gt;
+It’s easy to scale whole document with saving proportions of values of layer styles through Image Size with “Scale Styles” option turned on, but what if you need to scale only few layers in document? It is a bit tricky, but here how you can do it:   &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Group your layers and using &lt;strong&gt;Free Transform Tool (cmd+T)&lt;/strong&gt; resize them like you want. But don’t apply changes, just memorize values of W/H and cancel it       &lt;/li&gt;
+&lt;li&gt;Open your Smart-Object, go to &lt;strong&gt;Image Size (alt+cmd+I)&lt;/strong&gt;, and paste your values from previous step (make sure that “&lt;strong&gt;Scale Styles&lt;/strong&gt;” checkbox is turned on)  &lt;/li&gt;
+&lt;li&gt;Expand your Smart-Object, like described in previous tip    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;5-additional-ways-to-add-stroke-to-layer&quot;&gt;&lt;a href=&quot;#5-additional-ways-to-add-stroke-to-layer&quot; class=&quot;headerlink&quot; title=&quot;5 additional ways to add stroke to layer&quot;&gt;&lt;/a&gt;5 additional ways to add stroke to layer&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/ps_tips-n-tricks/4_strokes.png&quot; alt=&quot;&quot;&gt;
+Almost every layer style effect can give you stroke at the result:   &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Drop Shadow&lt;/strong&gt;: crunk up Spread to 100%, then chaning Size will give you outer stroke  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inner Shadow&lt;/strong&gt;: Choke to 100%, Size will change width of inner shadow  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outer Glow&lt;/strong&gt;: Spread to 100%, Size will change outer stroke  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inner Glow&lt;/strong&gt;: Choke to 100%, changing Size will give inner stroke  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bevel and Emboss&lt;/strong&gt;: Change Technique to Chisel Hard, Angle to 0˚, Altitude to 90˚, Depth to 1000%, Highlight and Shadow mode to same color. Now via changing size you can set width of your stroke and via changing style to Inner/Outer bevel will change orientation of the stroke  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;Hide-unnecessary-menu-itmes&quot;&gt;&lt;a href=&quot;#Hide-unnecessary-menu-itmes&quot; class=&quot;headerlink&quot; title=&quot;Hide unnecessary menu itmes&quot;&gt;&lt;/a&gt;Hide unnecessary menu itmes&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/ps_tips-n-tricks/5_menus.png&quot; alt=&quot;&quot;&gt;
+There’s a lot of menus in Photoshop, but not all of them are useful for everyone. So, you can hide things, that you don’t use in &lt;strong&gt;Edit → Menus…&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Blending-modes-hotkeys&quot;&gt;&lt;a href=&quot;#Blending-modes-hotkeys&quot; class=&quot;headerlink&quot; title=&quot;Blending modes hotkeys&quot;&gt;&lt;/a&gt;Blending modes hotkeys&lt;/h3&gt;&lt;p&gt;There are hotkeys for changing blending modes of layer. Dunno why, but I didn’t used them. Here’s list of most used modes and their shrotcuts:
+&lt;img src=&quot;/images/ps_tips-n-tricks/6_blendingmodes.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Custom-Hotkeys&quot;&gt;&lt;a href=&quot;#Custom-Hotkeys&quot; class=&quot;headerlink&quot; title=&quot;Custom Hotkeys&quot;&gt;&lt;/a&gt;Custom Hotkeys&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/ps_tips-n-tricks/7_hotkeys.png&quot; alt=&quot;&quot;&gt;
+Usually I’m too lazy to setup custom hotkeys for apps, but dealing with layer styles are taking too much time without it. So I have this set of hotkeys:  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;cmd+ctrl+c&lt;/strong&gt; — Copy Layer Style   &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cmd+ctrl+v&lt;/strong&gt; — Paste Layer Style  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cmd+ctrl+x&lt;/strong&gt; — Clear Layer Style  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cmd+ctrl+t&lt;/strong&gt; — Scale Effects  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cmd+ctrl+s&lt;/strong&gt; — Convert to Smart Object  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;Conclusion&quot;&gt;&lt;a href=&quot;#Conclusion&quot; class=&quot;headerlink&quot; title=&quot;Conclusion&quot;&gt;&lt;/a&gt;Conclusion&lt;/h3&gt;&lt;p&gt;And that list can be continued with numerous of tactics and tricks. But that’s it for today :P&lt;br&gt;As always, if you have something to say — welcome to comments ;)&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/ps_tips-n-tricks/main.png&quot; alt=&quot;&quot;&gt;
+Not all things work like we want in Photoshop. Sometimes we need to find some workarounds to make what we need. While using Photoshop for a while, I gained few tricks in my workflow and today I want to share them with you&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tips" scheme="http://blog.darkwark.com/tags/Tips/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Moving to CS6</title>
+    <link href="http://blog.darkwark.com/move-to-cs6/"/>
+    <id>http://blog.darkwark.com/move-to-cs6/</id>
+    <published>2012-05-08T11:06:46.000Z</published>
+    <updated>2016-03-05T11:07:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/moving-to-cs6/0_main.png&quot; alt=&quot;&quot;&gt;
+I played a bit with beta of Adobe Photoshop CS6 and I want to say that new features are neat. But few things now work not like in CS5, and it feels not cool. Some of them can be configured to work like in previous version, but some not. In this article I want to share some tips on how to make moving to CS6 more comfortable for you  &lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;Back-to-the-light-side&quot;&gt;&lt;a href=&quot;#Back-to-the-light-side&quot; class=&quot;headerlink&quot; title=&quot;Back to the light side&quot;&gt;&lt;/a&gt;Back to the light side&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/moving-to-cs6/1_interfacecolor.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;Personally, I like dark side of Photoshop. But if you are not, then you can move back to the retro-light interface style in Preferences → Interface → Color Theme  &lt;/p&gt;
+&lt;h3 id=&quot;Hide-selection-stroke-around-shape&quot;&gt;&lt;a href=&quot;#Hide-selection-stroke-around-shape&quot; class=&quot;headerlink&quot; title=&quot;Hide selection stroke around shape&quot;&gt;&lt;/a&gt;Hide selection stroke around shape&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/moving-to-cs6/2_selectionstroke.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;Yeah, I hate that stupid stroke around your fancy shapes too. There’s one way to fix it: you can hide it by cmd+h hotkey (or hit Enter, if Direct Selection / Pen tool is selected. Thanks, &lt;a href=&quot;https://twitter.com/#!/nikolayverin&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;@nikolayverin&lt;/a&gt;). But it’ll appear again and again…and again…whyy, Adobe, whyyy  &lt;/p&gt;
+&lt;h3 id=&quot;Feather-mask&quot;&gt;&lt;a href=&quot;#Feather-mask&quot; class=&quot;headerlink&quot; title=&quot;Feather mask&quot;&gt;&lt;/a&gt;Feather mask&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/moving-to-cs6/3_feather.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;That nice trick with blurring your shapes via feathering now hides in “Properties” panel (Window → Properties)  &lt;/p&gt;
+&lt;h3 id=&quot;Moving-shapes-in-half-pixel&quot;&gt;&lt;a href=&quot;#Moving-shapes-in-half-pixel&quot; class=&quot;headerlink&quot; title=&quot;Moving shapes in half-pixel&quot;&gt;&lt;/a&gt;Moving shapes in half-pixel&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/moving-to-cs6/4_pixelsnap.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;They finally added true pixel snapping for Transform Tool and Vector Shapes. But there are some times when you need half pixels. For that, you can temporary disable snapping in Preferences → uncheck “Snap Vector Tools and Transforms to Pixel Grid”  &lt;/p&gt;
+&lt;h3 id=&quot;Releasing-vector-mask-from-shape-layer&quot;&gt;&lt;a href=&quot;#Releasing-vector-mask-from-shape-layer&quot; class=&quot;headerlink&quot; title=&quot;Releasing vector mask from shape layer&quot;&gt;&lt;/a&gt;Releasing vector mask from shape layer&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/moving-to-cs6/5_maskrelease.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;For example, you have vector shape, and you have group of layers. You want to add that vector shape as mask to group. In CS5 you’ll just drag mask to the folder, in CS6 there’s no “mask” element on layer. Instead, to release mask from vector shape layer you’ll need to click on vector shape layer with holding ⌘ (ctrl on Windows) and drag it to your group.   &lt;/p&gt;
+&lt;h3 id=&quot;Have-something-to-add&quot;&gt;&lt;a href=&quot;#Have-something-to-add&quot; class=&quot;headerlink&quot; title=&quot;Have something to add?&quot;&gt;&lt;/a&gt;Have something to add?&lt;/h3&gt;&lt;p&gt;Feel free to share your tips about how to make new version of Photoshop more friendly to CS5 users&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/moving-to-cs6/0_main.png&quot; alt=&quot;&quot;&gt;
+I played a bit with beta of Adobe Photoshop CS6 and I want to say that new features are neat. But few things now work not like in CS5, and it feels not cool. Some of them can be configured to work like in previous version, but some not. In this article I want to share some tips on how to make moving to CS6 more comfortable for you  &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tips" scheme="http://blog.darkwark.com/tags/Tips/"/>
+    
+  </entry>
+  
+</feed>
