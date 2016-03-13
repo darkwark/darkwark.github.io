@@ -4,7 +4,8 @@ Hey there. Today I want to talk to work on and improve  your design skills. I wi
 <p>So, I’m planing to write here about what I like, care and worry about. Generally there will be posts about design, dribbble, macs and sexy girls in jacuzzi :D</p>
 <p>Blog has two languages: Russian and English. But not all posts will have translation. Just keep it in mind ;)</p>
 <p>I’m releasing this blog with couple of posts, so you can taste what this blog is about right now. Please feel free to leave your feedback and/or ideas for future posts.<br> Thanks.</p></article><div class="pagination"><div class="older"><a href="/">Older</a></div><div class="newer">Newer</div></div></section></main></body></html><style>main{
-  visibility: hidden;
+  opacity: 0;
+  transition: opacity .1s;
 }
 
 #spinner{
@@ -18,7 +19,7 @@ var content = document.querySelector('main'),
 
 window.addEventListener("load", function(event) {
   spinner.style.display = 'none';
-  content.style.visibility = 'visible';
+  content.style.opacity = '1';
 });
 </script><link href="/css/styles.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic|Noto+Serif:700" rel="stylesheet" type="text/css"><script>//
 // Google Analytics

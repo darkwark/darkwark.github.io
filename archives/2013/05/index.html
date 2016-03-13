@@ -3,7 +3,8 @@ And here I am with new script. This time it is inteded to help you to deal with 
 Adobe Illustrator has nice features that I miss in Photoshop. One of them is Transform Each. When you need to transform group of layers, it transforms each of selected layers as it was transformed individually. Yeah, sounds confusing, let me explain on pictures</p><a href="/transformEach/">Keep reading &rarr;</a></article><article class="post"><time datetime="2013-05-08T10:22:24.000Z">May 8th, 2013</time><h1><a href="/layerStylesTrick/">Layer Styles' Hidden Feature?</a></h1><ul class="tags"><li class="tag"><a href="/tags/Tips/">Tips</a></li></ul><p><img src="/images/layerstylefeature/main.png" alt="" title="" />
 I guess everyone knows that you can copy/paste layer styles through the menu <code>Layer → Layer Style → Copy/Paste Layer Style</code>. But what I missed is a function that will paste effects by adding them to the current layer instead of replacing everything. Let me show the example. </p><a href="/layerStylesTrick/">Keep reading &rarr;</a></article><article class="post"><time datetime="2013-05-01T10:28:33.000Z">May 1st, 2013</time><h1><a href="/expandSmartObject/">Expanding Smart Objects</a></h1><ul class="tags"><li class="tag"><a href="/tags/Scripts/">Scripts</a></li></ul><p><img src="/images/expandSmartObject/main.png" alt="">
 Remember a while ago I <a href="http://blog.kam88.com/en/adobe-photoshop-quick-tips.html">wrote</a> how to expand Smart Objects in Photoshop? So, yeah, that is kind of tedious process. Therefore, I made a script that makes all work for us.</p><a href="/expandSmartObject/">Keep reading &rarr;</a></article><div class="pagination"><div class="older"><a href="/">Older</a></div><div class="newer">Newer</div></div></section></main></body></html><style>main{
-  visibility: hidden;
+  opacity: 0;
+  transition: opacity .1s;
 }
 
 #spinner{
@@ -17,7 +18,7 @@ var content = document.querySelector('main'),
 
 window.addEventListener("load", function(event) {
   spinner.style.display = 'none';
-  content.style.visibility = 'visible';
+  content.style.opacity = '1';
 });
 </script><link href="/css/styles.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic|Noto+Serif:700" rel="stylesheet" type="text/css"><script>//
 // Google Analytics

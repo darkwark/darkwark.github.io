@@ -35,7 +35,8 @@ While working on one project I came up with a small script that helps dealing wi
 <p>Anyway, hope this will be helpful in your workflow. Have a good summer everyone!</p>
 <p>P.S.: And sorry for my poor English guys, hehe (read recently in Twitter that someone is lol’ing about it)</p>
 <div class="share"><a href="https://twitter.com/intent/tweet?text=“Lighten / Darken Color”: http://blog.darkwark.com/lightenDarken/" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a><a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.darkwark.com/lightenDarken/" class="facebook"><i class="fa fa-facebook"></i></a></div></article><div class="comments"><h2>Discussion</h2><hr class="hr-bold"><div class="notice"><i class="fa fa-bug"></i><h3>Found a bug? Something's not working?</h3><p>If you encountered problems, please take a look at <a href='/troubleshooting'>Troubleshooting</a> first</p></div><div id="disqus_thread"></div></div></section></main></body></html><style>main{
-  visibility: hidden;
+  opacity: 0;
+  transition: opacity .1s;
 }
 
 #spinner{
@@ -49,7 +50,7 @@ var content = document.querySelector('main'),
 
 window.addEventListener("load", function(event) {
   spinner.style.display = 'none';
-  content.style.visibility = 'visible';
+  content.style.opacity = '1';
 });
 </script><link href="/css/styles.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic|Noto+Serif:700" rel="stylesheet" type="text/css"><script>//
 // Google Analytics

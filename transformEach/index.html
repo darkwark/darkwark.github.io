@@ -57,7 +57,8 @@ Allows to apply random transformation to the layers in the range of initial valu
 <p>I’m thinking how to walkaround this thing.<br>Also take in mind, that if you’ll select big amount of layers it will take some time to perform all transformations</p>
 <h2 id="Yep"><a href="#Yep" class="headerlink" title="Yep"></a>Yep</h2><p>And that was another post with script for your Photoshop.<br>Hope you’ll find it useful :)</p>
 <div class="share"><a href="https://twitter.com/intent/tweet?text=“Transform Each Beta”: http://blog.darkwark.com/transformEach/" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a><a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.darkwark.com/transformEach/" class="facebook"><i class="fa fa-facebook"></i></a></div></article><div class="comments"><h2>Discussion</h2><hr class="hr-bold"><div class="notice"><i class="fa fa-bug"></i><h3>Found a bug? Something's not working?</h3><p>If you encountered problems, please take a look at <a href='/troubleshooting'>Troubleshooting</a> first</p></div><div id="disqus_thread"></div></div></section></main></body></html><style>main{
-  visibility: hidden;
+  opacity: 0;
+  transition: opacity .1s;
 }
 
 #spinner{
@@ -71,7 +72,7 @@ var content = document.querySelector('main'),
 
 window.addEventListener("load", function(event) {
   spinner.style.display = 'none';
-  content.style.visibility = 'visible';
+  content.style.opacity = '1';
 });
 </script><link href="/css/styles.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic|Noto+Serif:700" rel="stylesheet" type="text/css"><script>//
 // Google Analytics

@@ -20,7 +20,8 @@ I see more and more people are struggling with this bug in Adobe Photoshop, so I
 </ul>
 <p>If you found conflicting app, that is not in this list, please tell me about it here in comments or in <a href="http://twitter.com/darkwark" target="_blank" rel="external">twitter</a>, I’ll update this list.</p>
 <div class="share"><a href="https://twitter.com/intent/tweet?text=“Spacebar bug in Adobe Photoshop”: http://blog.darkwark.com/spacebar-bug/" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a><a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.darkwark.com/spacebar-bug/" class="facebook"><i class="fa fa-facebook"></i></a></div></article><div class="comments"><h2>Discussion</h2><hr class="hr-bold"><div id="disqus_thread"></div></div></section></main></body></html><style>main{
-  visibility: hidden;
+  opacity: 0;
+  transition: opacity .1s;
 }
 
 #spinner{
@@ -34,7 +35,7 @@ var content = document.querySelector('main'),
 
 window.addEventListener("load", function(event) {
   spinner.style.display = 'none';
-  content.style.visibility = 'visible';
+  content.style.opacity = '1';
 });
 </script><link href="/css/styles.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic|Noto+Serif:700" rel="stylesheet" type="text/css"><script>//
 // Google Analytics
