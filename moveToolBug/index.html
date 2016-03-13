@@ -10,7 +10,17 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Move Tool bug in Photoshop">
 <meta name="twitter:description" content="Encountered with a weird bug in Photoshop today. Every time when I tried to move a layer using my wacom tablet it just snapped back to its initial position (see the gif below). At the same time, keyb">
-<meta name="twitter:image" content="http://blog.darkwark.com/images/movetool-bug/movetool-bug_main.png"><title>Move Tool bug in Photoshop</title></head><body><img src="/images/spinner.gif" id="spinner"><main class="container"><div class="follow-widget"><a href="http://twitter.com/darkwark"><div class="twitter-widget"><span class="fa fa-twitter"></span><span>Follow</span></div></a></div><section class="sidebar"><div class="author"><a href="/"><img src="/images/darkwark_220x220_circle.png" class="avatar"></a><h1>Kamil Khadeyev</h1><small>Design & Illustration</small></div><ul class="main menu"><li class="menu-item"><a href="http://dribbble.com/darkwark">Portfolio</a></li><li class="menu-item"><a href="http://darkwark.tumblr.com">Sketchbook</a></li><li class="menu-item"><a href="#">About</a></li></ul><ul class="scripts menu"><li class="menu-item">Goodies:</li><li class="menu-item"><a href="/tags/Scripts/">Scripts</a></li><li class="menu-item"><a href="/troubleshooting">Troubleshooting</a></li></ul><br><ul class="social menu"><li><a href="http://dribbble.com/darkwark" target="_blank" class="fa fa-lg fa-dribbble"></a></li><li><a href="http://twitter.com/darkwark" target="_blank" class="fa fa-lg fa-twitter"></a></li><li><a href="http://instagram.com/darkwark" target="_blank" class="fa fa-lg fa-instagram"></a></li><li><a href="http://pinterest.com/darkwark" target="_blank" class="fa fa-lg fa-pinterest"></a></li></ul></section><section class="posts"><article class="post"><time datetime="2015-04-29T09:16:45.000Z">Apr 29th, 2015</time><h1><a href="/moveToolBug/">Move Tool bug in Photoshop</a></h1><ul class="tags"><li class="tag"><a href="/tags/Tips/">Tips</a></li></ul><p><img src="/images/movetool-bug/movetool-bug_main.png" alt="">
+<meta name="twitter:image" content="http://blog.darkwark.com/images/movetool-bug/movetool-bug_main.png"><title>Move Tool bug in Photoshop</title><style>main{
+  opacity: 0;
+  transition: opacity .1s;
+}
+
+#spinner{
+  position: absolute;
+  left: 50%;
+  left: calc(50% - 30px);
+}
+</style></head><body><img src="/images/spinner.gif" id="spinner"><main class="container"><div class="follow-widget"><a href="http://twitter.com/darkwark"><div class="twitter-widget"><span class="fa fa-twitter"></span><span>Follow</span></div></a></div><section class="sidebar"><div class="author"><a href="/"><img src="/images/darkwark_220x220_circle.png" class="avatar"></a><h1>Kamil Khadeyev</h1><small>Design & Illustration</small></div><ul class="main menu"><li class="menu-item"><a href="http://dribbble.com/darkwark">Portfolio</a></li><li class="menu-item"><a href="http://darkwark.tumblr.com">Sketchbook</a></li><li class="menu-item"><a href="#">About</a></li></ul><ul class="scripts menu"><li class="menu-item">Goodies:</li><li class="menu-item"><a href="/tags/Scripts/">Scripts</a></li><li class="menu-item"><a href="/troubleshooting">Troubleshooting</a></li></ul><br><ul class="social menu"><li><a href="http://dribbble.com/darkwark" target="_blank" class="fa fa-lg fa-dribbble"></a></li><li><a href="http://twitter.com/darkwark" target="_blank" class="fa fa-lg fa-twitter"></a></li><li><a href="http://instagram.com/darkwark" target="_blank" class="fa fa-lg fa-instagram"></a></li><li><a href="http://pinterest.com/darkwark" target="_blank" class="fa fa-lg fa-pinterest"></a></li></ul></section><section class="posts"><article class="post"><time datetime="2015-04-29T09:16:45.000Z">Apr 29th, 2015</time><h1><a href="/moveToolBug/">Move Tool bug in Photoshop</a></h1><ul class="tags"><li class="tag"><a href="/tags/Tips/">Tips</a></li></ul><p><img src="/images/movetool-bug/movetool-bug_main.png" alt="">
 Encountered with a weird bug in Photoshop today. Every time when I tried to move a layer using my wacom tablet it just snapped back to its initial position (see the gif below). At the same time, keyboard arrows and regular mouse worked normally. </p>
 <p>It is not the first time when I encounter this, so I decided to write this post so I could remember how to fix this again, and maybe it’ll help some of you too.  </p>
 <a id="more"></a>
@@ -24,17 +34,7 @@ Encountered with a weird bug in Photoshop today. Every time when I tried to move
   <li>Launch your Photoshop, everything should work fine now</li>
 </ol>
 
-<h2 id="Yep"><a href="#Yep" class="headerlink" title="Yep"></a>Yep</h2><p>Way to go Wacom!</p><div class="share"><a href="https://twitter.com/intent/tweet?text=“Move Tool bug in Photoshop”: http://blog.darkwark.com/moveToolBug/" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a><a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.darkwark.com/moveToolBug/" class="facebook"><i class="fa fa-facebook"></i></a></div></article><div class="comments"><h2>Discussion</h2><hr class="hr-bold"><div id="disqus_thread"></div></div></section></main></body></html><style>main{
-  opacity: 0;
-  transition: opacity .1s;
-}
-
-#spinner{
-  position: absolute;
-  left: 50%;
-  left: calc(50% - 30px);
-}
-</style><script>//Loading resources
+<h2 id="Yep"><a href="#Yep" class="headerlink" title="Yep"></a>Yep</h2><p>Way to go Wacom!</p><div class="share"><a href="https://twitter.com/intent/tweet?text=“Move Tool bug in Photoshop”: http://blog.darkwark.com/moveToolBug/" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a><a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.darkwark.com/moveToolBug/" class="facebook"><i class="fa fa-facebook"></i></a></div></article><div class="comments"><h2>Discussion</h2><hr class="hr-bold"><div id="disqus_thread"></div></div></section></main></body></html><script>//Loading resources
 var content = document.querySelector('main'),
     spinner = document.getElementById('spinner');
 
