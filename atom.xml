@@ -418,7 +418,7 @@ And here I am with new script. This time it is inteded to help you to deal with 
     <link href="http://blog.darkwark.com/transformEach/"/>
     <id>http://blog.darkwark.com/transformEach/</id>
     <published>2013-05-17T09:57:50.000Z</published>
-    <updated>2016-03-11T21:17:01.000Z</updated>
+    <updated>2016-04-02T14:11:44.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/transformEach/main.png&quot; alt=&quot;&quot;&gt;
 Adobe Illustrator has nice features that I miss in Photoshop. One of them is Transform Each. When you need to transform group of layers, it transforms each of selected layers as it was transformed individually. Yeah, sounds confusing, let me explain on pictures&lt;/p&gt;
@@ -433,8 +433,8 @@ Adobe Illustrator has nice features that I miss in Photoshop. One of them is Tra
 &lt;p&gt;&lt;img src=&quot;/images/transformEach/example_transformEach.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;In our case, script resized each userpic in 50%, and moved it top right in 20px.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/transformEach/download.png&quot; alt=&quot;&quot;&gt;
-&lt;div class=&quot;download_widget&quot;&gt;&lt;a href=&quot;http://blog.kam88.com/getTransformEach&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;&lt;small&gt;Requires Adobe Photoshop CS5, CS6, CC2014 or CC2015&lt;/small&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;Download Latest version of the script&lt;/strong&gt;&lt;/center&gt;](&lt;a href=&quot;http://cl.ly/P1zj&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://cl.ly/P1zj&lt;/a&gt;)&lt;br&gt;You have to move downloaded file into &lt;code&gt;Photoshop/Presets/Scripts&lt;/code&gt; and restart your Photoshop&lt;/p&gt;
+&lt;div class=&quot;download_widget&quot;&gt;&lt;a href=&quot;http://cl.ly/P1zj&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;&lt;small&gt;Requires Adobe Photoshop CS5, CS6, CC2014 or CC2015&lt;/small&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;You have to move downloaded file into &lt;code&gt;Photoshop/Presets/Scripts&lt;/code&gt; and restart your Photoshop&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/transformEach/hotkey.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Also don’t forget to setup a hotkey (&lt;code&gt;Edit→Keyboard Shortcuts…&lt;/code&gt;, look for &lt;code&gt;File&amp;gt;Scripts&amp;gt;[KAM] TransformEach&lt;/code&gt;). My hotkey is &lt;code&gt;cmd+alt+ctrl+T&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Window-description&quot;&gt;&lt;a href=&quot;#Window-description&quot; class=&quot;headerlink&quot; title=&quot;Window description&quot;&gt;&lt;/a&gt;Window description&lt;/h2&gt;&lt;p&gt;When you run script you’ll see this window:&lt;/p&gt;
