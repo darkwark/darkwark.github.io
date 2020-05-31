@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://blog.darkwark.com/"/>
+  <link href="https://blog.darkwark.com/"/>
   <updated>2016-03-13T11:26:05.000Z</updated>
-  <id>http://blog.darkwark.com/</id>
+  <id>https://blog.darkwark.com/</id>
   
   <author>
     <name>Kamil Khadeyev</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Transform Each 2.1 Update</title>
-    <link href="http://blog.darkwark.com/transformEach21/"/>
-    <id>http://blog.darkwark.com/transformEach21/</id>
+    <link href="https://blog.darkwark.com/transformEach21/"/>
+    <id>https://blog.darkwark.com/transformEach21/</id>
     <published>2015-08-03T20:54:45.000Z</published>
     <updated>2016-03-13T11:26:05.000Z</updated>
     
@@ -44,17 +44,17 @@
     
     </summary>
     
-      <category term="Product" scheme="http://blog.darkwark.com/categories/Product/"/>
+      <category term="Product" scheme="https://blog.darkwark.com/categories/Product/"/>
     
     
-      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+      <category term="Scripts" scheme="https://blog.darkwark.com/tags/Scripts/"/>
     
   </entry>
   
   <entry>
     <title>Move Tool bug in Photoshop</title>
-    <link href="http://blog.darkwark.com/moveToolBug/"/>
-    <id>http://blog.darkwark.com/moveToolBug/</id>
+    <link href="https://blog.darkwark.com/moveToolBug/"/>
+    <id>https://blog.darkwark.com/moveToolBug/</id>
     <published>2015-04-29T09:16:45.000Z</published>
     <updated>2016-03-05T09:19:05.000Z</updated>
     
@@ -83,14 +83,14 @@ Encountered with a weird bug in Photoshop today. Every time when I tried to move
     </summary>
     
     
-      <category term="Tips" scheme="http://blog.darkwark.com/tags/Tips/"/>
+      <category term="Tips" scheme="https://blog.darkwark.com/tags/Tips/"/>
     
   </entry>
   
   <entry>
     <title>Parsing Colors from Image in Photoshop</title>
-    <link href="http://blog.darkwark.com/parseColors/"/>
-    <id>http://blog.darkwark.com/parseColors/</id>
+    <link href="https://blog.darkwark.com/parseColors/"/>
+    <id>https://blog.darkwark.com/parseColors/</id>
     <published>2014-08-20T19:15:24.000Z</published>
     <updated>2016-03-05T09:25:50.000Z</updated>
     
@@ -135,14 +135,14 @@ Recently, &lt;a href=&quot;https://twitter.com/marcedwards&quot;&gt;Marc Edwards
     </summary>
     
     
-      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+      <category term="Scripts" scheme="https://blog.darkwark.com/tags/Scripts/"/>
     
   </entry>
   
   <entry>
     <title>RotateMe 3.0</title>
-    <link href="http://blog.darkwark.com/rotateMe3/"/>
-    <id>http://blog.darkwark.com/rotateMe3/</id>
+    <link href="https://blog.darkwark.com/rotateMe3/"/>
+    <id>https://blog.darkwark.com/rotateMe3/</id>
     <published>2014-05-28T08:26:55.000Z</published>
     <updated>2020-05-31T17:01:54.000Z</updated>
     
@@ -193,14 +193,14 @@ Hey I made a new version of RotateMe script, previous one was a bit too simple b
     </summary>
     
     
-      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+      <category term="Scripts" scheme="https://blog.darkwark.com/tags/Scripts/"/>
     
   </entry>
   
   <entry>
     <title>Transform Each 2.0</title>
-    <link href="http://blog.darkwark.com/transformEach2/"/>
-    <id>http://blog.darkwark.com/transformEach2/</id>
+    <link href="https://blog.darkwark.com/transformEach2/"/>
+    <id>https://blog.darkwark.com/transformEach2/</id>
     <published>2014-02-27T08:30:54.000Z</published>
     <updated>2016-03-11T21:17:15.000Z</updated>
     
@@ -235,14 +235,14 @@ You know that feeling, when you look at your old works and think “What was I t
     </summary>
     
     
-      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+      <category term="Scripts" scheme="https://blog.darkwark.com/tags/Scripts/"/>
     
   </entry>
   
   <entry>
     <title>Group Layer Renaming</title>
-    <link href="http://blog.darkwark.com/layerRenamer/"/>
-    <id>http://blog.darkwark.com/layerRenamer/</id>
+    <link href="https://blog.darkwark.com/layerRenamer/"/>
+    <id>https://blog.darkwark.com/layerRenamer/</id>
     <published>2013-10-02T08:39:42.000Z</published>
     <updated>2020-05-31T17:01:22.000Z</updated>
     
@@ -281,14 +281,14 @@ Hey! I made a script. Again. This time (I hope) it will help you with group laye
     </summary>
     
     
-      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+      <category term="Scripts" scheme="https://blog.darkwark.com/tags/Scripts/"/>
     
   </entry>
   
   <entry>
     <title>Introduction To Photoshop Scripting</title>
-    <link href="http://blog.darkwark.com/scriptingIntro/"/>
-    <id>http://blog.darkwark.com/scriptingIntro/</id>
+    <link href="https://blog.darkwark.com/scriptingIntro/"/>
+    <id>https://blog.darkwark.com/scriptingIntro/</id>
     <published>2013-07-30T08:45:09.000Z</published>
     <updated>2016-03-05T10:05:09.000Z</updated>
     
@@ -309,8 +309,8 @@ I finished an article about basics of writing scripts for Photoshop. I wal
   
   <entry>
     <title>Lighten / Darken Color</title>
-    <link href="http://blog.darkwark.com/lightenDarken/"/>
-    <id>http://blog.darkwark.com/lightenDarken/</id>
+    <link href="https://blog.darkwark.com/lightenDarken/"/>
+    <id>https://blog.darkwark.com/lightenDarken/</id>
     <published>2013-07-18T08:48:03.000Z</published>
     <updated>2020-05-31T17:01:37.000Z</updated>
     
@@ -346,14 +346,14 @@ While working on one project I came up with a small script that helps dealing wi
     </summary>
     
     
-      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+      <category term="Scripts" scheme="https://blog.darkwark.com/tags/Scripts/"/>
     
   </entry>
   
   <entry>
     <title>TemplateGen Beta</title>
-    <link href="http://blog.darkwark.com/templategen/"/>
-    <id>http://blog.darkwark.com/templategen/</id>
+    <link href="https://blog.darkwark.com/templategen/"/>
+    <id>https://blog.darkwark.com/templategen/</id>
     <published>2013-05-29T08:52:00.000Z</published>
     <updated>2020-05-31T17:02:02.000Z</updated>
     
@@ -409,14 +409,14 @@ And here I am with new script. This time it is inteded to help you to deal with 
     </summary>
     
     
-      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+      <category term="Scripts" scheme="https://blog.darkwark.com/tags/Scripts/"/>
     
   </entry>
   
   <entry>
     <title>Transform Each Beta</title>
-    <link href="http://blog.darkwark.com/transformEach/"/>
-    <id>http://blog.darkwark.com/transformEach/</id>
+    <link href="https://blog.darkwark.com/transformEach/"/>
+    <id>https://blog.darkwark.com/transformEach/</id>
     <published>2013-05-17T08:57:50.000Z</published>
     <updated>2016-04-02T14:11:44.000Z</updated>
     
@@ -466,14 +466,14 @@ Adobe Illustrator has nice features that I miss in Photoshop. One of them is Tra
     </summary>
     
     
-      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+      <category term="Scripts" scheme="https://blog.darkwark.com/tags/Scripts/"/>
     
   </entry>
   
   <entry>
     <title>Layer Styles&#39; Hidden Feature?</title>
-    <link href="http://blog.darkwark.com/layerStylesTrick/"/>
-    <id>http://blog.darkwark.com/layerStylesTrick/</id>
+    <link href="https://blog.darkwark.com/layerStylesTrick/"/>
+    <id>https://blog.darkwark.com/layerStylesTrick/</id>
     <published>2013-05-08T09:22:24.000Z</published>
     <updated>2016-03-05T10:24:03.000Z</updated>
     
@@ -540,14 +540,14 @@ I guess everyone knows that you can copy/paste layer styles through the menu &lt
     </summary>
     
     
-      <category term="Tips" scheme="http://blog.darkwark.com/tags/Tips/"/>
+      <category term="Tips" scheme="https://blog.darkwark.com/tags/Tips/"/>
     
   </entry>
   
   <entry>
     <title>Expanding Smart Objects</title>
-    <link href="http://blog.darkwark.com/expandSmartObject/"/>
-    <id>http://blog.darkwark.com/expandSmartObject/</id>
+    <link href="https://blog.darkwark.com/expandSmartObject/"/>
+    <id>https://blog.darkwark.com/expandSmartObject/</id>
     <published>2013-05-01T09:28:33.000Z</published>
     <updated>2020-05-31T17:01:10.000Z</updated>
     
@@ -574,14 +574,14 @@ Remember a while ago I &lt;a href=&quot;http://blog.kam88.com/en/adobe-photoshop
     </summary>
     
     
-      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+      <category term="Scripts" scheme="https://blog.darkwark.com/tags/Scripts/"/>
     
   </entry>
   
   <entry>
     <title>Vertical Rhythm Pattern Pack</title>
-    <link href="http://blog.darkwark.com/verticalRhythm/"/>
-    <id>http://blog.darkwark.com/verticalRhythm/</id>
+    <link href="https://blog.darkwark.com/verticalRhythm/"/>
+    <id>https://blog.darkwark.com/verticalRhythm/</id>
     <published>2013-04-24T09:34:19.000Z</published>
     <updated>2020-05-31T17:02:37.000Z</updated>
     
@@ -609,8 +609,8 @@ Vertical Rhythm is a useful thing. Usually I’m using default Photoshop grid to
   
   <entry>
     <title>Layout Wrapper for Photoshop</title>
-    <link href="http://blog.darkwark.com/layoutWrapper/"/>
-    <id>http://blog.darkwark.com/layoutWrapper/</id>
+    <link href="https://blog.darkwark.com/layoutWrapper/"/>
+    <id>https://blog.darkwark.com/layoutWrapper/</id>
     <published>2013-04-16T09:37:19.000Z</published>
     <updated>2020-05-31T17:01:33.000Z</updated>
     
@@ -640,14 +640,14 @@ I continue my experiments with scripting for Photoshop and recently I made thing
     </summary>
     
     
-      <category term="Scripts" scheme="http://blog.darkwark.com/tags/Scripts/"/>
+      <category term="Scripts" scheme="https://blog.darkwark.com/tags/Scripts/"/>
     
   </entry>
   
   <entry>
     <title>Isometrify</title>
-    <link href="http://blog.darkwark.com/isometrify/"/>
-    <id>http://blog.darkwark.com/isometrify/</id>
+    <link href="https://blog.darkwark.com/isometrify/"/>
+    <id>https://blog.darkwark.com/isometrify/</id>
     <published>2013-02-14T09:40:32.000Z</published>
     <updated>2020-05-31T17:01:18.000Z</updated>
     
@@ -685,14 +685,14 @@ Inspired by some guys who makes custom panels for Photoshop, I decided to make m
     </summary>
     
     
-      <category term="Extensions" scheme="http://blog.darkwark.com/tags/Extensions/"/>
+      <category term="Extensions" scheme="https://blog.darkwark.com/tags/Extensions/"/>
     
   </entry>
   
   <entry>
     <title>Drawing on iPad</title>
-    <link href="http://blog.darkwark.com/drawing-on-iPad/"/>
-    <id>http://blog.darkwark.com/drawing-on-iPad/</id>
+    <link href="https://blog.darkwark.com/drawing-on-iPad/"/>
+    <id>https://blog.darkwark.com/drawing-on-iPad/</id>
     <published>2013-01-28T09:50:41.000Z</published>
     <updated>2016-03-05T10:53:21.000Z</updated>
     
@@ -728,14 +728,14 @@ Recently I bought stylus for an iPad, I used it for couple of months and in toda
     </summary>
     
     
-      <category term="Review" scheme="http://blog.darkwark.com/tags/Review/"/>
+      <category term="Review" scheme="https://blog.darkwark.com/tags/Review/"/>
     
   </entry>
   
   <entry>
     <title>How I did a test task</title>
-    <link href="http://blog.darkwark.com/hh-test/"/>
-    <id>http://blog.darkwark.com/hh-test/</id>
+    <link href="https://blog.darkwark.com/hh-test/"/>
+    <id>https://blog.darkwark.com/hh-test/</id>
     <published>2013-01-21T09:54:42.000Z</published>
     <updated>2016-03-05T10:55:34.000Z</updated>
     
@@ -779,14 +779,14 @@ Because why not? :)  &lt;/p&gt;
     </summary>
     
     
-      <category term="Process" scheme="http://blog.darkwark.com/tags/Process/"/>
+      <category term="Process" scheme="https://blog.darkwark.com/tags/Process/"/>
     
   </entry>
   
   <entry>
     <title>Spacebar bug in Adobe Photoshop</title>
-    <link href="http://blog.darkwark.com/spacebar-bug/"/>
-    <id>http://blog.darkwark.com/spacebar-bug/</id>
+    <link href="https://blog.darkwark.com/spacebar-bug/"/>
+    <id>https://blog.darkwark.com/spacebar-bug/</id>
     <published>2012-10-08T09:56:57.000Z</published>
     <updated>2016-03-05T10:58:39.000Z</updated>
     
@@ -810,14 +810,14 @@ I see more and more people are struggling with this bug in Adobe Photoshop, so I
     </summary>
     
     
-      <category term="Tips" scheme="http://blog.darkwark.com/tags/Tips/"/>
+      <category term="Tips" scheme="https://blog.darkwark.com/tags/Tips/"/>
     
   </entry>
   
   <entry>
     <title>Adobe Photoshop Quick Tips</title>
-    <link href="http://blog.darkwark.com/photoshop-quick-tips/"/>
-    <id>http://blog.darkwark.com/photoshop-quick-tips/</id>
+    <link href="https://blog.darkwark.com/photoshop-quick-tips/"/>
+    <id>https://blog.darkwark.com/photoshop-quick-tips/</id>
     <published>2012-05-30T10:02:00.000Z</published>
     <updated>2016-03-05T11:05:43.000Z</updated>
     
@@ -868,14 +868,14 @@ Not all things work like we want in Photoshop. Sometimes we need to find some wo
     </summary>
     
     
-      <category term="Tips" scheme="http://blog.darkwark.com/tags/Tips/"/>
+      <category term="Tips" scheme="https://blog.darkwark.com/tags/Tips/"/>
     
   </entry>
   
   <entry>
     <title>Moving to CS6</title>
-    <link href="http://blog.darkwark.com/move-to-cs6/"/>
-    <id>http://blog.darkwark.com/move-to-cs6/</id>
+    <link href="https://blog.darkwark.com/move-to-cs6/"/>
+    <id>https://blog.darkwark.com/move-to-cs6/</id>
     <published>2012-05-08T10:06:46.000Z</published>
     <updated>2016-03-05T11:07:56.000Z</updated>
     
@@ -898,7 +898,7 @@ I played a bit with beta of Adobe Photoshop CS6 and I want to say that new featu
     </summary>
     
     
-      <category term="Tips" scheme="http://blog.darkwark.com/tags/Tips/"/>
+      <category term="Tips" scheme="https://blog.darkwark.com/tags/Tips/"/>
     
   </entry>
   
