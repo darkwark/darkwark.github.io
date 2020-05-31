@@ -91,7 +91,7 @@ Encountered with a weird bug in Photoshop today. Every time when I tried to move
     <title>Parsing Colors from Image in Photoshop</title>
     <link href="http://blog.darkwark.com/parseColors/"/>
     <id>http://blog.darkwark.com/parseColors/</id>
-    <published>2014-08-20T20:15:24.000Z</published>
+    <published>2014-08-20T19:15:24.000Z</published>
     <updated>2016-03-05T09:25:50.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/colorParser/main.png&quot; alt=&quot;&quot;&gt;
@@ -143,8 +143,8 @@ Recently, &lt;a href=&quot;https://twitter.com/marcedwards&quot;&gt;Marc Edwards
     <title>RotateMe 3.0</title>
     <link href="http://blog.darkwark.com/rotateMe3/"/>
     <id>http://blog.darkwark.com/rotateMe3/</id>
-    <published>2014-05-28T09:26:55.000Z</published>
-    <updated>2016-03-11T21:16:02.000Z</updated>
+    <published>2014-05-28T08:26:55.000Z</published>
+    <updated>2020-05-31T17:01:54.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/rotateme3/main.png&quot; alt=&quot;&quot;&gt;
 Hey I made a new version of RotateMe script, previous one was a bit too simple because I wrote it for &lt;a href=&quot;http://www.smashingmagazine.com/2013/07/25/introduction-to-photoshop-scripting/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SmashingMag article&lt;/a&gt; to overview scripting for Photoshop, so I decided to create something more interesting with new UI and fancy functions. And here it is.&lt;/p&gt;
@@ -155,7 +155,7 @@ In new version you can specify radius of the circle and give some rotation to ea
 &lt;p&gt;&lt;img src=&quot;/images/rotateme3/slide2.gif&quot; alt=&quot;&quot;&gt;
 So you can make some interesing things with it, like flowers, preloaders or even clock face&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/rotateme3/examples.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://cl.ly/VmOt&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download [KAM] RotateMe 3.jsx&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;http://cl.ly/VmOt/f&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download [KAM] RotateMe 3.jsx&lt;/a&gt;
 &lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6, CC2014 or CC2015.&lt;/center&gt;&lt;/small&gt;
 Put downloaded file into &lt;code&gt;Photoshop/Presets/Scripts&lt;/code&gt; directory and restart your Photoshop. Script will appear in &lt;code&gt;File → Scripts → [KAM] RotateMe 3&lt;/code&gt;  &lt;/p&gt;
 &lt;p&gt;You can also setup a hotkey in &lt;code&gt;Edit→Keyboard Shortcuts…&lt;/code&gt; &lt;/p&gt;
@@ -201,7 +201,7 @@ Hey I made a new version of RotateMe script, previous one was a bit too simple b
     <title>Transform Each 2.0</title>
     <link href="http://blog.darkwark.com/transformEach2/"/>
     <id>http://blog.darkwark.com/transformEach2/</id>
-    <published>2014-02-27T09:30:54.000Z</published>
+    <published>2014-02-27T08:30:54.000Z</published>
     <updated>2016-03-11T21:17:15.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/transformeach2/main.png&quot; alt=&quot;&quot;&gt;
@@ -243,15 +243,15 @@ You know that feeling, when you look at your old works and think “What was I t
     <title>Group Layer Renaming</title>
     <link href="http://blog.darkwark.com/layerRenamer/"/>
     <id>http://blog.darkwark.com/layerRenamer/</id>
-    <published>2013-10-02T09:39:42.000Z</published>
-    <updated>2016-03-11T21:14:47.000Z</updated>
+    <published>2013-10-02T08:39:42.000Z</published>
+    <updated>2020-05-31T17:01:22.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/layerRenamer_APR/main.png&quot; alt=&quot;&quot;&gt;
 Hey! I made a script. Again. This time (I hope) it will help you with group layer renaming. Script can append, prepend or replace layer name with entered text. &lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;img src=&quot;/images/layerRenamer_APR/beforeafter1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Should be useful if you are layer organization geek or if you use applications like &lt;a href=&quot;http://macrabbit.com/slicy/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Slicy&lt;/a&gt; or new Photoshop CC feature called &lt;a href=&quot;http://blogs.adobe.com/photoshopdotcom/2013/09/introducing-adobe-generator-for-photoshop-cc.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Image Assets&lt;/a&gt;, that can export layers using tags in their names.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://cl.ly/RjIj&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;http://cl.ly/RjIj/f&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
 &lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6, CC2014 or CC2015.&lt;/center&gt;&lt;/small&gt;
 Put downloaded file into &lt;code&gt;Photoshop/Presets/Scripts/&lt;/code&gt; and restart Photoshop. Script will be available in the menu &lt;code&gt;File → Scripts → [KAM] Layers Renamer - APR&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;And as always you can setup a custom hotkey for the script in &lt;code&gt;Edit → Keyboard Shortcuts…&lt;/code&gt;. I have &lt;code&gt;F2&lt;/code&gt; hotkey for renaming layers (basically it is &lt;code&gt;Layer (Group) Properties&lt;/code&gt;), so I used &lt;strong&gt;alt+F2&lt;/strong&gt; for group renaming.&lt;/p&gt;
@@ -289,7 +289,7 @@ Hey! I made a script. Again. This time (I hope) it will help you with group laye
     <title>Introduction To Photoshop Scripting</title>
     <link href="http://blog.darkwark.com/scriptingIntro/"/>
     <id>http://blog.darkwark.com/scriptingIntro/</id>
-    <published>2013-07-30T09:45:09.000Z</published>
+    <published>2013-07-30T08:45:09.000Z</published>
     <updated>2016-03-05T10:05:09.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/scripting_smash/scripting-smash.png&quot; alt=&quot;&quot;&gt;
@@ -311,8 +311,8 @@ I finished an article about basics of writing scripts for Photoshop. I wal
     <title>Lighten / Darken Color</title>
     <link href="http://blog.darkwark.com/lightenDarken/"/>
     <id>http://blog.darkwark.com/lightenDarken/</id>
-    <published>2013-07-18T09:48:03.000Z</published>
-    <updated>2016-03-11T21:15:21.000Z</updated>
+    <published>2013-07-18T08:48:03.000Z</published>
+    <updated>2020-05-31T17:01:37.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/lighten-darken-color/main.png&quot; alt=&quot;Lighten / Darken Color&quot;&gt;
 While working on one project I came up with a small script that helps dealing with color in Photoshop, thought that it can be useful for someone else, so I decided to share it here&lt;/p&gt;
@@ -322,7 +322,7 @@ While working on one project I came up with a small script that helps dealing wi
 &lt;p&gt;There are actually two scripts: one increases brightness by 10% and another decreases it&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/lighten-darken-color/preview.png&quot; alt=&quot;Preview&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Of course, you can do it manually in color picker or in Color panel, but I always wanted to have a hotkey for this. If you missed this too, download link and instructions are below.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://cl.ly/QKFS&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;http://cl.ly/QKFS/f&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
 &lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6, CC2014 or CC2015.&lt;/center&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Installing&quot;&gt;&lt;a href=&quot;#Installing&quot; class=&quot;headerlink&quot; title=&quot;Installing&quot;&gt;&lt;/a&gt;Installing&lt;/h2&gt;&lt;p&gt;In the archive you’ll find two script files: &lt;code&gt;[KAM] Color Darken.jsx&lt;/code&gt; and &lt;code&gt;[KAM] Color Lighten.jsx&lt;/code&gt;   &lt;/p&gt;
 &lt;p&gt;You have to put them into &lt;code&gt;Photoshop/Presets/Scripts/&lt;/code&gt;, just like regular scripts, nothing special&lt;/p&gt;
@@ -354,8 +354,8 @@ While working on one project I came up with a small script that helps dealing wi
     <title>TemplateGen Beta</title>
     <link href="http://blog.darkwark.com/templategen/"/>
     <id>http://blog.darkwark.com/templategen/</id>
-    <published>2013-05-29T09:52:00.000Z</published>
-    <updated>2016-03-11T21:16:14.000Z</updated>
+    <published>2013-05-29T08:52:00.000Z</published>
+    <updated>2020-05-31T17:02:02.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/templategen/main.png&quot; alt=&quot;&quot;&gt;
 And here I am with new script. This time it is inteded to help you to deal with templates in Photoshop.&lt;/p&gt;
@@ -368,7 +368,7 @@ And here I am with new script. This time it is inteded to help you to deal with 
 &lt;p&gt;&lt;img src=&quot;/images/templategen/newdocumentGrid.png&quot; alt=&quot;&quot;&gt;    &lt;/p&gt;
 &lt;p&gt;That’s it :)&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/templategen/download.png&quot; alt=&quot;&quot;&gt;
-&lt;a href=&quot;http://cl.ly/PGqI&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
+&lt;a href=&quot;http://cl.ly/PGqI/f&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
 &lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6&lt;/center&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Installing&quot;&gt;&lt;a href=&quot;#Installing&quot; class=&quot;headerlink&quot; title=&quot;Installing&quot;&gt;&lt;/a&gt;Installing&lt;/h3&gt;&lt;p&gt;Install process differs from regular scripts, so please read carefully and do all steps as described below:  &lt;/p&gt;
 &lt;ol&gt;
@@ -417,7 +417,7 @@ And here I am with new script. This time it is inteded to help you to deal with 
     <title>Transform Each Beta</title>
     <link href="http://blog.darkwark.com/transformEach/"/>
     <id>http://blog.darkwark.com/transformEach/</id>
-    <published>2013-05-17T09:57:50.000Z</published>
+    <published>2013-05-17T08:57:50.000Z</published>
     <updated>2016-04-02T14:11:44.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/transformEach/main.png&quot; alt=&quot;&quot;&gt;
@@ -474,7 +474,7 @@ Adobe Illustrator has nice features that I miss in Photoshop. One of them is Tra
     <title>Layer Styles&#39; Hidden Feature?</title>
     <link href="http://blog.darkwark.com/layerStylesTrick/"/>
     <id>http://blog.darkwark.com/layerStylesTrick/</id>
-    <published>2013-05-08T10:22:24.000Z</published>
+    <published>2013-05-08T09:22:24.000Z</published>
     <updated>2016-03-05T10:24:03.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/layerstylefeature/main.png&quot; alt=&quot;&quot; title=&quot;&quot;&gt;
@@ -548,13 +548,13 @@ I guess everyone knows that you can copy/paste layer styles through the menu &lt
     <title>Expanding Smart Objects</title>
     <link href="http://blog.darkwark.com/expandSmartObject/"/>
     <id>http://blog.darkwark.com/expandSmartObject/</id>
-    <published>2013-05-01T10:28:33.000Z</published>
-    <updated>2016-03-11T21:14:18.000Z</updated>
+    <published>2013-05-01T09:28:33.000Z</published>
+    <updated>2020-05-31T17:01:10.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/expandSmartObject/main.png&quot; alt=&quot;&quot;&gt;
 Remember a while ago I &lt;a href=&quot;http://blog.kam88.com/en/adobe-photoshop-quick-tips.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;wrote&lt;/a&gt; how to expand Smart Objects in Photoshop? So, yeah, that is kind of tedious process. Therefore, I made a script that makes all work for us.&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;a href=&quot;http://cl.ly/OgSs&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;http://cl.ly/OgSs/f&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
 &lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6&lt;/center&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;Move downloaded file to the &lt;code&gt;/Photoshop/Presets/Scripts/&lt;/code&gt; folder and restart your Photoshop. Script will appear in the menu &lt;code&gt;File→Scripts→[KAM] Expand SmartObject&lt;/code&gt;  &lt;/p&gt;
 &lt;h2 id=&quot;Using&quot;&gt;&lt;a href=&quot;#Using&quot; class=&quot;headerlink&quot; title=&quot;Using&quot;&gt;&lt;/a&gt;Using&lt;/h2&gt;&lt;p&gt;I highly recommend you to setup a hotkey for the script (&lt;code&gt;Edit→Keyboard shortcuts…&lt;/code&gt;), something like &lt;code&gt;ctrl+cmd+E&lt;/code&gt;. And you can also assign a hotkey to the &lt;code&gt;Convert to Smart Object&lt;/code&gt; to &lt;code&gt;ctrl+cmd+S&lt;/code&gt; (it is in &lt;code&gt;Layer→Smart Objects&amp;gt;&lt;/code&gt;)  &lt;/p&gt;
@@ -582,13 +582,13 @@ Remember a while ago I &lt;a href=&quot;http://blog.kam88.com/en/adobe-photoshop
     <title>Vertical Rhythm Pattern Pack</title>
     <link href="http://blog.darkwark.com/verticalRhythm/"/>
     <id>http://blog.darkwark.com/verticalRhythm/</id>
-    <published>2013-04-24T10:34:19.000Z</published>
-    <updated>2016-03-11T21:17:39.000Z</updated>
+    <published>2013-04-24T09:34:19.000Z</published>
+    <updated>2020-05-31T17:02:37.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/vRhythmPat/main.png&quot; alt=&quot;&quot;&gt;
 Vertical Rhythm is a useful thing. Usually I’m using default Photoshop grid to set it up. But this is not the best solution because sometimes I need native grid for other things. In such cases fast created patterns helps me, I don’t usually save them and because of that they are sink into oblivion after switching between different pattern packs and I have to make new pattern again and again (silly, yeah). So, I decided to generate a single pattern pack with popular leading values for daily use in projects.&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;a href=&quot;http://cl.ly/OW4w&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download Vertical Rhythm Pack.pat&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://cl.ly/OW4w/f&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download Vertical Rhythm Pack.pat&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;You have to move it to the &lt;code&gt;Photoshop/Presets/Patterns/&lt;/code&gt; and restart your Photoshop. Then you’ll see it in the list of all pattern sets in the context menu of pattern window  &lt;/p&gt;
 &lt;h2 id=&quot;Sizes&quot;&gt;&lt;a href=&quot;#Sizes&quot; class=&quot;headerlink&quot; title=&quot;Sizes&quot;&gt;&lt;/a&gt;Sizes&lt;/h2&gt;&lt;p&gt;In the pattern pack you’ll find following versions of leading: 6, 8, 9, 10, 11, 12, 14, 18, 20, 24, 25, 30, 35, 36, 45, 48, 50, 55, 60, 72. Simply, these are values of leading from native font panel in Photoshop and some additional values that I use sometimes  &lt;/p&gt;
 &lt;h2 id=&quot;Using&quot;&gt;&lt;a href=&quot;#Using&quot; class=&quot;headerlink&quot; title=&quot;Using&quot;&gt;&lt;/a&gt;Using&lt;/h2&gt;&lt;p&gt;The best way to use these patterns will be createing Pattern Fill Layer (&lt;code&gt;Layer → New Fill Layer → Pattern…&lt;/code&gt;), choosing apropriate pattern for your leading and setting up opacity for the layer&lt;br&gt;&lt;img src=&quot;/images/vRhythmPat/names.png&quot; alt=&quot;&quot;&gt;
@@ -611,8 +611,8 @@ Vertical Rhythm is a useful thing. Usually I’m using default Photoshop grid to
     <title>Layout Wrapper for Photoshop</title>
     <link href="http://blog.darkwark.com/layoutWrapper/"/>
     <id>http://blog.darkwark.com/layoutWrapper/</id>
-    <published>2013-04-16T10:37:19.000Z</published>
-    <updated>2016-03-11T21:15:01.000Z</updated>
+    <published>2013-04-16T09:37:19.000Z</published>
+    <updated>2020-05-31T17:01:33.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/LayoutWrapper/main.png&quot; alt=&quot;&quot;&gt;
 I continue my experiments with scripting for Photoshop and recently I made thing that wraps document with a Safari browser window. For presentational purposes…and just for fun.&lt;/p&gt;
@@ -620,7 +620,7 @@ I continue my experiments with scripting for Photoshop and recently I made thing
 &lt;h2 id=&quot;How-it-works&quot;&gt;&lt;a href=&quot;#How-it-works&quot; class=&quot;headerlink&quot; title=&quot;How it works&quot;&gt;&lt;/a&gt;How it works&lt;/h2&gt;&lt;p&gt;Script makes a snapshot of the current document and places it into Safari browser window in new document. Title of the window and text in address bar will be the same as original document’s name. But you can change it to whatever you want—text layers are editable. You can change favicon and background color too  &lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/LayoutWrapper/beforeafter.png&quot; alt=&quot;&quot;&gt;
 Take a notice, that &lt;strong&gt;minimum size of the document is 160×1&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://cl.ly/OJsZ&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;http://cl.ly/OJsZ/f&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
 &lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6&lt;/center&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Installation&quot;&gt;&lt;a href=&quot;#Installation&quot; class=&quot;headerlink&quot; title=&quot;Installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Please read it carefully&lt;/strong&gt;, installation process differs from regular scripts install.
 In the archive you’ll find &lt;code&gt;LayoutWrapper&lt;/code&gt; folder you have to move it to &lt;code&gt;%Photoshop folder%/Presets/Scripts/&lt;/code&gt;, properly installed script will look like this:   &lt;/p&gt;
@@ -648,8 +648,8 @@ I continue my experiments with scripting for Photoshop and recently I made thing
     <title>Isometrify</title>
     <link href="http://blog.darkwark.com/isometrify/"/>
     <id>http://blog.darkwark.com/isometrify/</id>
-    <published>2013-02-14T10:40:32.000Z</published>
-    <updated>2016-03-11T21:14:30.000Z</updated>
+    <published>2013-02-14T09:40:32.000Z</published>
+    <updated>2020-05-31T17:01:18.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/isometrify/main.png&quot; alt=&quot;&quot;&gt;
 Inspired by some guys who makes custom panels for Photoshop, I decided to make my own. And here it is, I made “Isometrify” — Adobe Photoshop CS5+ extension than helps transform objects into isometry and generate custom sized grid for it. &lt;/p&gt;
@@ -670,7 +670,7 @@ Pattern will be saved in your current asset with name “Isometry Grid N”, whe
 &lt;li&gt;New visual interface, that will be more pleasant  &lt;/li&gt;
 &lt;li&gt;Custom isometry angle&lt;br&gt;&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&quot;http://cl.ly/MsmF&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;http://cl.ly/MsmF/f&quot; class=&quot;button download&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download&lt;/a&gt;
 &lt;small&gt;&lt;center&gt;Requires Adobe Photoshop CS5, CS6&lt;/center&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;For installing you’ll need just double click on downloaded file, it should be opened in Adobe Extension Manager and take care of everything.&lt;br&gt;If you have issues about “Unknown Extension Signature” try installing &lt;a href=&quot;http://blogs.adobe.com/cssdk/2011/12/fix-for-extension-signature-bug-on-mac-os-10-7-patch-posted.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;this fix&lt;/a&gt;&lt;br&gt;After installing you’ll need to restart your Photoshop, new panel can be found in Window → Extensions → Isometrify  &lt;/p&gt;
 &lt;h2 id=&quot;Feedback&quot;&gt;&lt;a href=&quot;#Feedback&quot; class=&quot;headerlink&quot; title=&quot;Feedback&quot;&gt;&lt;/a&gt;Feedback&lt;/h2&gt;&lt;p&gt;Making this panel was fun, hope you’ll have some while using it too. If you have some feature requests or suggestions, please feel free to leave it in comments or send them to me to email/twitter.
@@ -693,7 +693,7 @@ Inspired by some guys who makes custom panels for Photoshop, I decided to make m
     <title>Drawing on iPad</title>
     <link href="http://blog.darkwark.com/drawing-on-iPad/"/>
     <id>http://blog.darkwark.com/drawing-on-iPad/</id>
-    <published>2013-01-28T10:50:41.000Z</published>
+    <published>2013-01-28T09:50:41.000Z</published>
     <updated>2016-03-05T10:53:21.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/drawing-on-ipad/main.png&quot; alt=&quot;&quot;&gt;
@@ -736,7 +736,7 @@ Recently I bought stylus for an iPad, I used it for couple of months and in toda
     <title>How I did a test task</title>
     <link href="http://blog.darkwark.com/hh-test/"/>
     <id>http://blog.darkwark.com/hh-test/</id>
-    <published>2013-01-21T10:54:42.000Z</published>
+    <published>2013-01-21T09:54:42.000Z</published>
     <updated>2016-03-05T10:55:34.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/hh-test/en/main.png&quot; alt=&quot;&quot;&gt;
@@ -787,7 +787,7 @@ Because why not? :)  &lt;/p&gt;
     <title>Spacebar bug in Adobe Photoshop</title>
     <link href="http://blog.darkwark.com/spacebar-bug/"/>
     <id>http://blog.darkwark.com/spacebar-bug/</id>
-    <published>2012-10-08T10:56:57.000Z</published>
+    <published>2012-10-08T09:56:57.000Z</published>
     <updated>2016-03-05T10:58:39.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/spacebar-bug/spacebar-bug.png&quot;&gt;
@@ -818,7 +818,7 @@ I see more and more people are struggling with this bug in Adobe Photoshop, so I
     <title>Adobe Photoshop Quick Tips</title>
     <link href="http://blog.darkwark.com/photoshop-quick-tips/"/>
     <id>http://blog.darkwark.com/photoshop-quick-tips/</id>
-    <published>2012-05-30T11:02:00.000Z</published>
+    <published>2012-05-30T10:02:00.000Z</published>
     <updated>2016-03-05T11:05:43.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/ps_tips-n-tricks/main.png&quot; alt=&quot;&quot;&gt;
@@ -876,7 +876,7 @@ Not all things work like we want in Photoshop. Sometimes we need to find some wo
     <title>Moving to CS6</title>
     <link href="http://blog.darkwark.com/move-to-cs6/"/>
     <id>http://blog.darkwark.com/move-to-cs6/</id>
-    <published>2012-05-08T11:06:46.000Z</published>
+    <published>2012-05-08T10:06:46.000Z</published>
     <updated>2016-03-05T11:07:56.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/moving-to-cs6/0_main.png&quot; alt=&quot;&quot;&gt;
